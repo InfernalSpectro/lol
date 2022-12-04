@@ -123,7 +123,7 @@
       "credits": "by uknown",
       "desc" : "FE Animations + Cool Fling for troll all!",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/GalaxyXlib/main/Pendulum%20Hub%20Thumb.jpg"
    },
    {
       "title":"Talk in emoji",
