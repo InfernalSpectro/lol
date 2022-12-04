@@ -28,13 +28,6 @@
       "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
    },
    {
-      "title":"Click TP cool",
-      "credits": "by MainDab",
-      "desc" : "Gives you a tool that allows you to teleport by clicking anywhere on the map.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/ClickTPTool.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
       "title":"Ctrl TP",
       "credits": "by MainDab",
       "desc" : "Hold down left ctrl and click where you watnt to teleport to.",
