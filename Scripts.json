@@ -87,7 +87,7 @@
       "title":"Dragon Ball Rage",
       "credits": "by Uknown",
       "desc" : "Made for Dragon Ball Rage.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/rubicmaster/my_scripts/main/Dragon_ball_rage\"))()",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua\"))()",
       "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
    },
    {
