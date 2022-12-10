@@ -77,6 +77,20 @@
       "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
    },
    {
+      "title":"Orca",
+      "credits": "by Richie0866",
+      "desc" : "Orca is a hub with beautful Interface (is universal).",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+   },
+   {
+      "title":"Dragon Ball Rage",
+      "credits": "by Uknown",
+      "desc" : "Made for Dragon Ball Rage.",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/rubicmaster/my_scripts/main/Dragon_ball_rage\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+   },
+   {
       "title":"Simple hitbox extender",
       "credits": "by unknown",
       "desc" : "Simple hitbox extender. May not work in all games.",
