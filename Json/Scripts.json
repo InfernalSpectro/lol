@@ -1,135 +1,36 @@
-[
-   {
-      "title":"Alt delete",
-      "credits": "by MainDab",
-      "desc" : "Hold down left alt and click on the part you want to delete. Very simple tool.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/AltDelete.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Anti-AFK",
-      "credits": "by Rice",
-      "desc" : "A simple Anti-AFK script.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/Anti-AFK.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Audio logger",
-      "credits": "by bit8bit @ v3rm",
-      "desc" : "A simple audio logger. Kinda useless due to Roblox's audio privacy update.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/AudioLogger.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Bolts Hub",
-      "credits": "by Bolts",
-      "desc" : "A script hub that support Arsenal, Strucid, Da Hood, MM2, ToH and others.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Click TP cool",
-      "credits": "by MainDab",
-      "desc" : "Gives you a tool that allows you to teleport by clicking anywhere on the map.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/ClickTPTool.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Ctrl TP",
-      "credits": "by MainDab",
-      "desc" : "Hold down left ctrl and click where you watnt to teleport to.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/CtrlTP.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Dark Dex V4",
-      "credits": "by Moon and Courtney",
-      "desc" : "A much less detectable game explorer with more enhancements. Decompiling may not work.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/DarkDexV4.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Dark Hub",
-      "credits": "by RandomAdamYT",
-      "desc" : "A popular script hub. However, it has a key system.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Domain X",
-      "credits": "by Sirius",
-      "desc" : "A decent script hub with many games.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/shlexware/DomainX/main/source\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"ESP",
-      "credits": "by unknown",
-      "desc" : "A very simple ESP script displaying each player's body part.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/ESP.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Fly",
-      "credits": "by unknown",
-      "desc" : "Press E to fly! May be a bit broken.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/Fly.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Hair fling",
-      "credits": "by unknown",
-      "desc" : "Fling people using your hair. Warning : may already be patched in some games.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/HairFling.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+ {
+      "title":"Dragon Ball Rage",
+      "credits": "by Uknown",
+      "desc" : "Made for Dragon Ball Rage.",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
    {
       "title":"Simple hitbox extender",
       "credits": "by unknown",
       "desc" : "Simple hitbox extender. May not work in all games.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/HitboxExtender.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
    {
       "title":"Infinite Yield",
       "credits": "by EdgeIY (I think)",
       "desc" : "A very well maintained and developed common script with many useful utilities.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/Infinite%20Yield.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
+   
    {
-      "title":"Infinite jump",
-      "credits": "by MainDab",
-      "desc" : "A very simple script that allows you to infinitely jump.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/InfiniteJump.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Invisible fling",
-      "credits": "by Diemiers",
-      "desc" : "A script that allows you to fling people invisibly. May not work in all games.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/InvisibleFling.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Revis Admin",
-      "credits": "by a bunch of devs",
-      "desc" : "An old but simple and lightweigh admin command script.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/RevisAdmin.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
-   },
-   {
-      "title":"Server hop",
-      "credits": "by unknown",
-      "desc" : "A simple script that allows you to server hop.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/ServerHop.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+      "title":"Pendulum Hub",
+      "credits": "by uknown",
+      "desc" : "FE Animations + Cool Fling for troll all!",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/GalaxyXlib/main/Pendulum%20Hub%20Thumb.jpg"
    },
    {
       "title":"Talk in emoji",
       "credits": "by unknown",
       "desc" : "A script that allows you to talk using Discord emoji characters.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/TalkInEmoji.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorageImages/!DefaultBackground.png"
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    }
-]
