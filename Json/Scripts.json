@@ -116,7 +116,7 @@
       "credits": "by Diemiers",
       "desc" : "A script that allows you to fling people invisibly. May not work in all games.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/InvisibleFling.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
    {
       "title":"Revis Admin",
