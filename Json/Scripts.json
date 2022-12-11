@@ -1,45 +1,9 @@
-[
+[  
    {
       "title":"Orca",
       "credits": "by Richie0866",
       "desc" : "Orca is a hub with beautful Interface (is universal).",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua\"))()",
       "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/script_9708910-1646740062142-750x459.jpg"
-   },
-   {
-      "title":"Dragon Ball Rage",
-      "credits": "by Uknown",
-      "desc" : "Made for Dragon Ball Rage.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
-   },
-   {
-      "title":"Simple hitbox extender",
-      "credits": "by unknown",
-      "desc" : "Simple hitbox extender. May not work in all games.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/HitboxExtender.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
-   },
-   {
-      "title":"Infinite Yield",
-      "credits": "by EdgeIY (I think)",
-      "desc" : "A very well maintained and developed common script with many useful utilities.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/Infinite%20Yield.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
-   },
-   
-   {
-      "title":"Pendulum Hub",
-      "credits": "by uknown",
-      "desc" : "FE Animations + Cool Fling for troll all!",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/GalaxyXlib/main/Pendulum%20Hub%20Thumb.jpg"
-   },
-   {
-      "title":"Talk in emoji",
-      "credits": "by unknown",
-      "desc" : "A script that allows you to talk using Discord emoji characters.",
-      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/TalkInEmoji.lua\"))()",
-      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    }
-]
+]  
