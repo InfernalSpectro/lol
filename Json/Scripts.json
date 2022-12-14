@@ -13,13 +13,33 @@
       "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
    {
+      "title":"Prison Life Admin",
+      "credits": "by unknown",
+      "desc" : "Simple hitbox extender. May not work in all games.",
+      "script":"loadstring(game:HttpGet(\"https://pastebin.com/raw/X29jzKQX "))()",
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
+   },
+   {
+      "title":"BIG PAINTBALL - OWN HUB,
+      "credits": "by Own Hub",
+      "desc" : "Simple hitbox extender. May not work in all games.",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
+   },
+   {
+      "title":"Blox Fruits,
+      "credits": "by uknown",
+      "desc" : "Simple hitbox extender. May not work in all games.",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI\"))()",
+      "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
+   },
+   {
       "title":"Infinite Yield",
       "credits": "by EdgeIY (I think)",
       "desc" : "A very well maintained and developed common script with many useful utilities.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/GeneralScripts/Infinite%20Yield.lua\"))()",
       "imgurl" : "https://raw.githubusercontent.com/InfernalSpectro/lol/main/angryimg.png"
    },
-   
    {
       "title":"Pendulum Hub",
       "credits": "by uknown",
