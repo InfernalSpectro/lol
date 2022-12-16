@@ -563,7 +563,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://4031889928"), {
 					Size = UDim2.new(1, 0, 1, 0),
 				}), "Second"),
-				MakeElement("Corner", 1)
+				MakeElement("Corner", 0)
 			}), "Divider"),
 			SetChildren(SetProps(MakeElement("TFrame"), {
 				AnchorPoint = Vector2.new(0, 0.5),
@@ -650,15 +650,15 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "Astro",
-			Content = "Astro Hub Hidden, Click Alt for open again!",
+			Name = "Astro System",
+			Content = "Interface Hidden, Click RightShift for open again!",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
 	end)
 
 	AddConnection(UserInputService.InputBegan, function(Input)
-		if Input.KeyCode == Enum.KeyCode.LeftAlt and UIHidden then
+		if Input.KeyCode == Enum.KeyCode.RightShift and UIHidden then
 			MainWindow.Visible = true
 		end
 	end)
@@ -1486,7 +1486,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					Visible = false
 				}, {
 					Create("UIGradient", {Rotation = 270, Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))},}),
-					Create("UICorner", {CornerRadius = UDim.new(0, 5)}),
+					Create("UICorner", {CornerRadius = UDim.new(0, 0)}),
 					HueSelection
 				})
 
