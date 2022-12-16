@@ -651,14 +651,14 @@ function OrionLib:MakeWindow(WindowConfig)
 		UIHidden = true
 		OrionLib:MakeNotification({
 			Name = "Astro",
-			Content = "Astro Hub Hidden, Click RightShift for open again!",
+			Content = "Astro Hub Hidden, Click Alt for open again!",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
 	end)
 
 	AddConnection(UserInputService.InputBegan, function(Input)
-		if Input.KeyCode == Enum.KeyCode.RightShift and UIHidden then
+		if Input.KeyCode == Enum.KeyCode.Alt and UIHidden then
 			MainWindow.Visible = true
 		end
 	end)
