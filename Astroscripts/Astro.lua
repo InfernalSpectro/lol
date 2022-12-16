@@ -650,8 +650,8 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "Interface Hidden",
-			Content = "Tap RightShift to reopen the interface",
+			Name = "Astro",
+			Content = "Astro Hub Hidden, Click RightShift for open again!",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
