@@ -139,6 +139,28 @@ while _G.player do
 end			  
   	end    
 })
+Tab:AddButton({
+	Name = "Auto Farm Lava Gorilla (500,000 XP+)",
+	Callback = function()
+	local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+P.CFrame = CFrame.new(-317.1450500488281, -86.44943237304688, 1286.5853271484375)
+
+while true do
+    wait()
+    if game:GetService("Workspace").NPC:FindFirstChild("LavaGorilla") then
+        game:GetService("ReplicatedStorage").jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(
+                                    game:GetService("Workspace").NPC.LavaGorilla.Humanoid,
+                                    5
+                                )
+                                wait()
+                                if game:GetService("Workspace").NPC:FindFirstChild("LavaGorilla") then
+        game:GetService("Workspace").NPC.LavaGorilla.Humanoid.Health = 0
+        end
+
+    end
+end
+  	end    
+})
 
 Tab:AddButton({
 	Name = "Anti-AFK",
