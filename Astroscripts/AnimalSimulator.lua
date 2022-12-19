@@ -168,12 +168,13 @@ Tab:AddButton({
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()  	end    
 })
 Tab:AddButton({
-	Name = "Give Fireball",
+	Name = "Disable Auto Farm Dummy",
 	Callback = function()
 for i,v in pairs (game.Players:GetChildren()) do
 wait()
 for i,b in pairs (v.Backpack:GetChildren()) do
 b.Parent = game.Players.LocalPlayer.Backpack
 end
-end   
+end		  
+  	end    
 })
