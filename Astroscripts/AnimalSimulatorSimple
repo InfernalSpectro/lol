@@ -31,6 +31,10 @@ MainFrame.Parent = AstroHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 MainFrame.Position = UDim2.new(0.126081586, 0, 0.11923077, 0)
 MainFrame.Size = UDim2.new(0, 589, 0, 337)
+MainFrame = script.Parent.Frame
+MainFrame.Draggable = true
+MainFrame.Active = true
+MainFrame.Selectable = true
 
 UICorner.Parent = MainFrame
 
@@ -123,7 +127,7 @@ farmboss.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 farmboss.Position = UDim2.new(0.388111889, 0, 0.173611119, 0)
 farmboss.Size = UDim2.new(0, 202, 0, 31)
 farmboss.Font = Enum.Font.Gotham
-farmboss.Text = "Auto Farm Boss (5K+) [OFF]"
+farmboss.Text = "Auto Farm Boss (500K) [OFF]"
 farmboss.TextColor3 = Color3.fromRGB(255, 255, 255)
 farmboss.TextSize = 14.000
 
@@ -268,9 +272,9 @@ local function CLNG_fake_script() -- farmboss.farmDummy
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		
-		if p.Text == "Auto Farm Boss (5K+) [OFF]"  then
+		if p.Text == "Auto Farm Boss (500K) [OFF]"  then
 			p.TextColor3 = Color3.new(0, 1, 0.14902)
-			p.Text = "Auto Farm Boss (5K+) [ON]"
+			p.Text = "Auto Farm Boss (500K) [ON]"
 			local P = game.Players.LocalPlayer.Character.HumanoidRootPart
 			P.CFrame = CFrame.new(-317.1450500488281, -86.44943237304688, 1286.5853271484375)
 	
@@ -289,7 +293,7 @@ local function CLNG_fake_script() -- farmboss.farmDummy
 	
 	
 		else
-			p.Text = "Auto Farm Boss (5K+) [OFF]"
+			p.Text = "Auto Farm Boss (500K) [OFF]"
 			p.TextColor3 = Color3.new(1, 1, 1)
 			local P = game.Players.LocalPlayer.Character.HumanoidRootPart
 			P.CFrame = CFrame.new(-317.1450500488281, -86.44943237304688, 1286.5853271484375)
