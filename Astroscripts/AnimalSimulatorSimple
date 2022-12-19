@@ -201,7 +201,7 @@ local function IXFCJ_fake_script() -- farmdummy5k.farmDummy
 			p.Text = "Auto Farm Dummy 5K [OFF]"
 			p.TextColor3 = Color3.new(1, 1, 1)
 			_G.player = false
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").MAP.waterfall1.Dummy2.Torso.CFrame
+
 			while _G.player do
 				wait()
 				game:GetService("ReplicatedStorage").jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(game:GetService("Workspace").MAP.waterfall1.Dummy2.Humanoid, 5)
@@ -233,7 +233,6 @@ local function CAVR_fake_script() -- farmdummy.farmDummy
 			p.Text = "Auto Farm Dummy [OFF]"
 			p.TextColor3 = Color3.new(1, 1, 1)
 			_G.player = false
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").MAP.dummies["Training Dummy"].Torso.CFrame
 			while _G.player do
 				wait()
 				game:GetService("ReplicatedStorage").jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(game:GetService("Workspace").MAP.dummies["Training Dummy"].Humanoid, 5)
@@ -295,8 +294,7 @@ local function CLNG_fake_script() -- farmboss.farmDummy
 		else
 			p.Text = "Auto Farm Boss (500K) [OFF]"
 			p.TextColor3 = Color3.new(1, 1, 1)
-			local P = game.Players.LocalPlayer.Character.HumanoidRootPart
-			P.CFrame = CFrame.new(-317.1450500488281, -86.44943237304688, 1286.5853271484375)
+
 	
 			while false do
 				wait()
