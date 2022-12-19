@@ -24,7 +24,7 @@ local UICorner_8 = Instance.new("UICorner")
 
 
 AstroHub.Name = "AstroHub"
-AstroHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AstroHub.Parent = game.Players.LocalPlayer:WaitForChild("CoreGui")
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = AstroHub
