@@ -1,4 +1,4 @@
-local Astro = loadstring(game:HttpGet(('https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/Astro.lua')))()
+local Astro = loadstring(game:HttpGet(('https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/AstroPCLibrary')))()
 
 --LOCAL
 
