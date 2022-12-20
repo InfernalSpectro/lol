@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+
 
 -- Instances:
 
@@ -50,7 +49,7 @@ local UICorner_16 = Instance.new("UICorner")
 
 AstroHub.Name = "AstroHub"
 AstroHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-AstroHub.Enabled = false
+AstroHub.Enabled = true
 AstroHub.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
