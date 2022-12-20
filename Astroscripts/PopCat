@@ -1,72 +1,55 @@
-
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
-local PopCatLoader = Instance.new("ScreenGui")
-local img = Instance.new("ImageLabel")
-local UICorner = Instance.new("UICorner")
 local AstroHub = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
 local titulo = Instance.new("TextLabel")
 local CloseWindow = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local MinimizeWindow = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local FunctionsFrame = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local ScrollingMain = Instance.new("ScrollingFrame")
 local freeFireball = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local farmboss = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local farmcoins = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local farmdummy = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local farmdummy5k = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local antiafkHatredBR = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local Boombox = Instance.new("TextBox")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local ativar = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local tituloImagem = Instance.new("ImageLabel")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local barraLateral = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local main = Instance.new("TextButton")
 local functions = Instance.new("TextButton")
 local HomeFrame = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local title = Instance.new("TextLabel")
 local creditos = Instance.new("TextLabel")
 local versao = Instance.new("TextLabel")
 local scripts = Instance.new("TextLabel")
 local creditos_2 = Instance.new("TextLabel")
 local DarkBack = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 
 --Properties:
 
-PopCatLoader.Name = "PopCatLoader"
-PopCatLoader.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-PopCatLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-PopCatLoader.ResetOnSpawn = false
-
-img.Name = "img"
-img.Parent = PopCatLoader
-img.AnchorPoint = Vector2.new(0.5, 0.5)
-img.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-img.Position = UDim2.new(0.500999987, 0, -30, 0)
-img.Size = UDim2.new(0, 100, 0, 100)
-img.Image = "rbxassetid://11869068856"
-
-UICorner.Parent = img
-
 AstroHub.Name = "AstroHub"
-AstroHub.Parent = PopCatLoader
+AstroHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 AstroHub.Enabled = false
 AstroHub.ResetOnSpawn = false
 
@@ -76,7 +59,7 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 MainFrame.Position = UDim2.new(0.254474699, 0, 0.211111113, 0)
 MainFrame.Size = UDim2.new(0, 589, 0, 337)
 
-UICorner_2.Parent = MainFrame
+UICorner.Parent = MainFrame
 
 titulo.Name = "titulo"
 titulo.Parent = MainFrame
@@ -100,8 +83,8 @@ CloseWindow.Text = "X"
 CloseWindow.TextColor3 = Color3.fromRGB(255, 0, 0)
 CloseWindow.TextSize = 14.000
 
-UICorner_3.CornerRadius = UDim.new(0, 5)
-UICorner_3.Parent = CloseWindow
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = CloseWindow
 
 MinimizeWindow.Name = "MinimizeWindow"
 MinimizeWindow.Parent = MainFrame
@@ -114,8 +97,8 @@ MinimizeWindow.Text = "_"
 MinimizeWindow.TextColor3 = Color3.fromRGB(255, 255, 255)
 MinimizeWindow.TextSize = 14.000
 
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = MinimizeWindow
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = MinimizeWindow
 
 FunctionsFrame.Name = "FunctionsFrame"
 FunctionsFrame.Parent = MainFrame
@@ -123,7 +106,7 @@ FunctionsFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 FunctionsFrame.Position = UDim2.new(0.169779286, 0, 0.109792285, 0)
 FunctionsFrame.Size = UDim2.new(0, 481, 0, 288)
 
-UICorner_5.Parent = FunctionsFrame
+UICorner_4.Parent = FunctionsFrame
 
 ScrollingMain.Name = "ScrollingMain"
 ScrollingMain.Parent = FunctionsFrame
@@ -145,7 +128,7 @@ freeFireball.Text = "Free Fireball (Patched)"
 freeFireball.TextColor3 = Color3.fromRGB(255, 0, 0)
 freeFireball.TextSize = 14.000
 
-UICorner_6.Parent = freeFireball
+UICorner_5.Parent = freeFireball
 
 farmboss.Name = "farmboss"
 farmboss.Parent = ScrollingMain
@@ -157,7 +140,7 @@ farmboss.Text = "Auto Farm Boss [OFF]"
 farmboss.TextColor3 = Color3.fromRGB(255, 255, 255)
 farmboss.TextSize = 14.000
 
-UICorner_7.Parent = farmboss
+UICorner_6.Parent = farmboss
 
 farmcoins.Name = "farmcoins"
 farmcoins.Parent = ScrollingMain
@@ -169,7 +152,7 @@ farmcoins.Text = "Farm Coins"
 farmcoins.TextColor3 = Color3.fromRGB(255, 255, 255)
 farmcoins.TextSize = 14.000
 
-UICorner_8.Parent = farmcoins
+UICorner_7.Parent = farmcoins
 
 farmdummy.Name = "farmdummy"
 farmdummy.Parent = ScrollingMain
@@ -181,7 +164,7 @@ farmdummy.Text = "Auto Farm Dummy [OFF]"
 farmdummy.TextColor3 = Color3.fromRGB(255, 255, 255)
 farmdummy.TextSize = 14.000
 
-UICorner_9.Parent = farmdummy
+UICorner_8.Parent = farmdummy
 
 farmdummy5k.Name = "farmdummy5k"
 farmdummy5k.Parent = ScrollingMain
@@ -193,7 +176,7 @@ farmdummy5k.Text = "Auto Farm Dummy 5K [OFF]"
 farmdummy5k.TextColor3 = Color3.fromRGB(255, 255, 255)
 farmdummy5k.TextSize = 14.000
 
-UICorner_10.Parent = farmdummy5k
+UICorner_9.Parent = farmdummy5k
 
 antiafkHatredBR.Name = "antiafkHatredBR"
 antiafkHatredBR.Parent = ScrollingMain
@@ -205,7 +188,7 @@ antiafkHatredBR.Text = "Anti-AFK by HatredBR"
 antiafkHatredBR.TextColor3 = Color3.fromRGB(255, 255, 255)
 antiafkHatredBR.TextSize = 14.000
 
-UICorner_11.Parent = antiafkHatredBR
+UICorner_10.Parent = antiafkHatredBR
 
 Boombox.Name = "Boombox"
 Boombox.Parent = ScrollingMain
@@ -219,7 +202,7 @@ Boombox.Text = ""
 Boombox.TextColor3 = Color3.fromRGB(255, 255, 255)
 Boombox.TextSize = 14.000
 
-UICorner_12.Parent = Boombox
+UICorner_11.Parent = Boombox
 
 ativar.Name = "ativar"
 ativar.Parent = Boombox
@@ -231,7 +214,7 @@ ativar.Text = "Ativar"
 ativar.TextColor3 = Color3.fromRGB(255, 255, 255)
 ativar.TextSize = 14.000
 
-UICorner_13.Parent = ativar
+UICorner_12.Parent = ativar
 
 tituloImagem.Name = "tituloImagem"
 tituloImagem.Parent = MainFrame
@@ -240,7 +223,7 @@ tituloImagem.Position = UDim2.new(0.00509337848, 0, 0.00890207756, 0)
 tituloImagem.Size = UDim2.new(0, 29, 0, 27)
 tituloImagem.Image = "rbxassetid://11869068856"
 
-UICorner_14.Parent = tituloImagem
+UICorner_13.Parent = tituloImagem
 
 barraLateral.Name = "barraLateral"
 barraLateral.Parent = MainFrame
@@ -248,7 +231,7 @@ barraLateral.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 barraLateral.Position = UDim2.new(0.0152801359, 0, 0.109792285, 0)
 barraLateral.Size = UDim2.new(0, 84, 0, 288)
 
-UICorner_15.Parent = barraLateral
+UICorner_14.Parent = barraLateral
 
 main.Name = "main"
 main.Parent = barraLateral
@@ -279,7 +262,7 @@ HomeFrame.Position = UDim2.new(0.169779286, 0, 0.109792285, 0)
 HomeFrame.Size = UDim2.new(0, 481, 0, 288)
 HomeFrame.Visible = false
 
-UICorner_16.Parent = HomeFrame
+UICorner_15.Parent = HomeFrame
 
 title.Name = "title"
 title.Parent = HomeFrame
@@ -342,142 +325,11 @@ DarkBack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DarkBack.BackgroundTransparency = 1.000
 DarkBack.Size = UDim2.new(0, 589, 0, 337)
 
-UICorner_17.Parent = DarkBack
+UICorner_16.Parent = DarkBack
 
 -- Scripts:
 
-local function FPNYK_fake_script() -- PopCatLoader.loader 
-	local script = Instance.new('Script', PopCatLoader)
-
-	local NewBlur = Instance.new('BlurEffect', game.Lighting)
-	NewBlur.Size = 0
-	wait(2)
-	NewBlur.Size = 1
-	
-	wait(0.03)
-	NewBlur.Size = 2
-	wait(0.03)
-	NewBlur.Size = 3
-	wait(0.03)
-	NewBlur.Size = 4
-	wait(0.03)
-	NewBlur.Size = 5
-	wait(0.03)
-	NewBlur.Size = 6
-	wait(0.03)
-	NewBlur.Size = 7
-	wait(0.03)
-	NewBlur.Size = 8
-	wait(0.03)
-	NewBlur.Size = 9
-	wait(0.03)
-	NewBlur.Size = 10
-	wait(0.03)
-	NewBlur.Size = 11
-	wait(0.03)
-	NewBlur.Size = 12
-	wait(0.03)
-	NewBlur.Size = 13
-	wait(0.03)
-	NewBlur.Size = 14
-	wait(0.03)
-	NewBlur.Size = 15
-	wait(0.03)
-	NewBlur.Size = 16
-	wait(0.03)
-	NewBlur.Size = 17
-	wait(0.03)
-	NewBlur.Size = 18
-	wait(0.03)
-	NewBlur.Size = 19
-	wait(0.03)
-	NewBlur.Size = 20
-	wait(0.03)
-	NewBlur.Size = 21
-	wait(0.03)
-	NewBlur.Size = 22
-	wait(0.03)
-	NewBlur.Size = 23
-	wait(0.03)
-	NewBlur.Size = 24
-	wait(0.03)
-	NewBlur.Size = 25
-	wait(0.03)
-	NewBlur.Size = 26
-	wait(0.03)
-	NewBlur.Size = 27
-	wait(0.03)
-	script.Parent.img:TweenPosition(UDim2.new(0.501, 0,0.501, 0), 'Out', 'Quart', 2)
-	wait(3)
-	script.Parent.img:TweenSize(UDim2.new(0, 0.7,0, 0), 'InOut', 'Quart', 1.5)
-	
-	
-	wait(0.03)
-	NewBlur.Size = 27
-	wait(0.03)
-	NewBlur.Size = 26
-	wait(0.03)
-	NewBlur.Size = 25
-	wait(0.03)
-	NewBlur.Size = 24
-	wait(0.03)
-	NewBlur.Size = 23
-	wait(0.03)
-	NewBlur.Size = 22
-	wait(0.03)
-	NewBlur.Size = 21
-	wait(0.03)
-	NewBlur.Size = 20
-	wait(0.03)
-	NewBlur.Size = 19
-	wait(0.03)
-	NewBlur.Size = 18
-	wait(0.03)
-	NewBlur.Size = 17
-	wait(0.03)
-	NewBlur.Size = 16
-	wait(0.03)
-	NewBlur.Size = 15
-	wait(0.03)
-	NewBlur.Size = 14
-	wait(0.03)
-	NewBlur.Size = 13
-	wait(0.03)
-	NewBlur.Size = 12
-	wait(0.03)
-	NewBlur.Size = 11
-	wait(0.03)
-	NewBlur.Size = 10
-	wait(0.03)
-	NewBlur.Size = 9
-	wait(0.03)
-	NewBlur.Size = 8
-	wait(0.03)
-	NewBlur.Size = 7
-	wait(0.03)
-	NewBlur.Size = 6
-	wait(0.03)
-	NewBlur.Size = 5
-	wait(0.03)
-	NewBlur.Size = 4
-	wait(0.03)
-	NewBlur.Size = 3
-	wait(0.03)
-	NewBlur.Size = 2
-	wait(0.03)
-	NewBlur.Size = 1
-	wait(0.03)
-	NewBlur.Size = 0
-	wait(0.03)
-	NewBlur:Destroy()
-	script.Parent.AstroHub.Enabled = true
-	print("PopCatHub Loaded")
-	script.Parent:Destroy()
-	
-	
-end
-coroutine.wrap(FPNYK_fake_script)()
-local function OMDHZEW_fake_script() -- titulo.RainbowText 
+local function CSPO_fake_script() -- titulo.RainbowText 
 	local script = Instance.new('Script', titulo)
 
 	local text = script.Parent
@@ -533,8 +385,8 @@ local function OMDHZEW_fake_script() -- titulo.RainbowText
 	end
 	end
 end
-coroutine.wrap(OMDHZEW_fake_script)()
-local function ROZMARF_fake_script() -- CloseWindow.LocalScript 
+coroutine.wrap(CSPO_fake_script)()
+local function LIBAMCS_fake_script() -- CloseWindow.LocalScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -561,8 +413,8 @@ local function ROZMARF_fake_script() -- CloseWindow.LocalScript
 	end)
 	
 end
-coroutine.wrap(ROZMARF_fake_script)()
-local function UZTJV_fake_script() -- CloseWindow.UIButtonEffectScript 
+coroutine.wrap(LIBAMCS_fake_script)()
+local function ATJC_fake_script() -- CloseWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	local Button = script.Parent
@@ -631,8 +483,8 @@ local function UZTJV_fake_script() -- CloseWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(UZTJV_fake_script)()
-local function YKJON_fake_script() -- MinimizeWindow.Script 
+coroutine.wrap(ATJC_fake_script)()
+local function UERNDP_fake_script() -- MinimizeWindow.Script 
 	local script = Instance.new('Script', MinimizeWindow)
 
 	Minimize = false
@@ -671,8 +523,8 @@ local function YKJON_fake_script() -- MinimizeWindow.Script
 	
 	end)
 end
-coroutine.wrap(YKJON_fake_script)()
-local function YFLCID_fake_script() -- MinimizeWindow.UIButtonEffectScript 
+coroutine.wrap(UERNDP_fake_script)()
+local function JIOA_fake_script() -- MinimizeWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', MinimizeWindow)
 
 	local Button = script.Parent
@@ -741,8 +593,8 @@ local function YFLCID_fake_script() -- MinimizeWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YFLCID_fake_script)()
-local function BWXCYW_fake_script() -- freeFireball.UIButtonEffectScript 
+coroutine.wrap(JIOA_fake_script)()
+local function GPZBN_fake_script() -- freeFireball.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', freeFireball)
 
 	local Button = script.Parent
@@ -750,8 +602,8 @@ local function BWXCYW_fake_script() -- freeFireball.UIButtonEffectScript
 	
 	--Values
 end
-coroutine.wrap(BWXCYW_fake_script)()
-local function OIPKW_fake_script() -- farmboss.farmDummy 
+coroutine.wrap(GPZBN_fake_script)()
+local function CITTWIZ_fake_script() -- farmboss.farmDummy 
 	local script = Instance.new('Script', farmboss)
 
 	
@@ -803,8 +655,8 @@ local function OIPKW_fake_script() -- farmboss.farmDummy
 		
 	end)
 end
-coroutine.wrap(OIPKW_fake_script)()
-local function ZIOVWY_fake_script() -- farmboss.UIButtonEffectScript 
+coroutine.wrap(CITTWIZ_fake_script)()
+local function YHIPEU_fake_script() -- farmboss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmboss)
 
 	local Button = script.Parent
@@ -873,8 +725,8 @@ local function ZIOVWY_fake_script() -- farmboss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ZIOVWY_fake_script)()
-local function KZVNGR_fake_script() -- farmcoins.farmCoins 
+coroutine.wrap(YHIPEU_fake_script)()
+local function XSYYH_fake_script() -- farmcoins.farmCoins 
 	local script = Instance.new('Script', farmcoins)
 
 	
@@ -893,8 +745,8 @@ local function KZVNGR_fake_script() -- farmcoins.farmCoins
 		
 	end)
 end
-coroutine.wrap(KZVNGR_fake_script)()
-local function EHQWB_fake_script() -- farmcoins.UIButtonEffectScript 
+coroutine.wrap(XSYYH_fake_script)()
+local function SHEWKV_fake_script() -- farmcoins.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmcoins)
 
 	local Button = script.Parent
@@ -963,8 +815,8 @@ local function EHQWB_fake_script() -- farmcoins.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(EHQWB_fake_script)()
-local function LYMCOLM_fake_script() -- farmdummy.farmDummy 
+coroutine.wrap(SHEWKV_fake_script)()
+local function GTPTDI_fake_script() -- farmdummy.farmDummy 
 	local script = Instance.new('Script', farmdummy)
 
 	
@@ -995,8 +847,8 @@ local function LYMCOLM_fake_script() -- farmdummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(LYMCOLM_fake_script)()
-local function VESK_fake_script() -- farmdummy.UIButtonEffectScript 
+coroutine.wrap(GTPTDI_fake_script)()
+local function OQELYY_fake_script() -- farmdummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy)
 
 	local Button = script.Parent
@@ -1065,8 +917,8 @@ local function VESK_fake_script() -- farmdummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(VESK_fake_script)()
-local function WJCWL_fake_script() -- farmdummy5k.farmDummy 
+coroutine.wrap(OQELYY_fake_script)()
+local function MYDRLQ_fake_script() -- farmdummy5k.farmDummy 
 	local script = Instance.new('Script', farmdummy5k)
 
 	
@@ -1099,8 +951,8 @@ local function WJCWL_fake_script() -- farmdummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(WJCWL_fake_script)()
-local function AHZIQPS_fake_script() -- farmdummy5k.UIButtonEffectScript 
+coroutine.wrap(MYDRLQ_fake_script)()
+local function UVEPT_fake_script() -- farmdummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy5k)
 
 	local Button = script.Parent
@@ -1169,8 +1021,8 @@ local function AHZIQPS_fake_script() -- farmdummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AHZIQPS_fake_script)()
-local function MNYRNC_fake_script() -- antiafkHatredBR.farmDummy 
+coroutine.wrap(UVEPT_fake_script)()
+local function HMNDC_fake_script() -- antiafkHatredBR.farmDummy 
 	local script = Instance.new('Script', antiafkHatredBR)
 
 	
@@ -1183,8 +1035,8 @@ local function MNYRNC_fake_script() -- antiafkHatredBR.farmDummy
 		
 	end)
 end
-coroutine.wrap(MNYRNC_fake_script)()
-local function KEWRJDT_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
+coroutine.wrap(HMNDC_fake_script)()
+local function TNWG_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', antiafkHatredBR)
 
 	local Button = script.Parent
@@ -1253,8 +1105,8 @@ local function KEWRJDT_fake_script() -- antiafkHatredBR.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(KEWRJDT_fake_script)()
-local function DICMW_fake_script() -- ScrollingMain.Script 
+coroutine.wrap(TNWG_fake_script)()
+local function NKSJ_fake_script() -- ScrollingMain.Script 
 	local script = Instance.new('Script', ScrollingMain)
 
 	local text = script.Parent
@@ -1310,8 +1162,8 @@ local function DICMW_fake_script() -- ScrollingMain.Script
 		end
 	end
 end
-coroutine.wrap(DICMW_fake_script)()
-local function ILJVG_fake_script() -- ativar.farmDummy 
+coroutine.wrap(NKSJ_fake_script)()
+local function DPLJZER_fake_script() -- ativar.farmDummy 
 	local script = Instance.new('Script', ativar)
 
 	
@@ -1326,8 +1178,8 @@ local function ILJVG_fake_script() -- ativar.farmDummy
 		
 	end)
 end
-coroutine.wrap(ILJVG_fake_script)()
-local function ALNQ_fake_script() -- ativar.UIButtonEffectScript 
+coroutine.wrap(DPLJZER_fake_script)()
+local function TDBRL_fake_script() -- ativar.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', ativar)
 
 	local Button = script.Parent
@@ -1396,8 +1248,8 @@ local function ALNQ_fake_script() -- ativar.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ALNQ_fake_script)()
-local function YDVLM_fake_script() -- main.UIButtonEffectScript 
+coroutine.wrap(TDBRL_fake_script)()
+local function AJMFB_fake_script() -- main.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', main)
 
 	local Button = script.Parent
@@ -1466,8 +1318,8 @@ local function YDVLM_fake_script() -- main.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YDVLM_fake_script)()
-local function AATKF_fake_script() -- main.Script 
+coroutine.wrap(AJMFB_fake_script)()
+local function QPYUMUH_fake_script() -- main.Script 
 	local script = Instance.new('Script', main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1476,8 +1328,8 @@ local function AATKF_fake_script() -- main.Script
 		script.Parent.Parent.Parent.HomeFrame.Visible = true
 	end)
 end
-coroutine.wrap(AATKF_fake_script)()
-local function EFBCB_fake_script() -- functions.UIButtonEffectScript 
+coroutine.wrap(QPYUMUH_fake_script)()
+local function EWTVMIK_fake_script() -- functions.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', functions)
 
 	local Button = script.Parent
@@ -1546,8 +1398,8 @@ local function EFBCB_fake_script() -- functions.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(EFBCB_fake_script)()
-local function PMYQC_fake_script() -- functions.Script 
+coroutine.wrap(EWTVMIK_fake_script)()
+local function PENGKB_fake_script() -- functions.Script 
 	local script = Instance.new('Script', functions)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1557,8 +1409,8 @@ local function PMYQC_fake_script() -- functions.Script
 	end)
 	
 end
-coroutine.wrap(PMYQC_fake_script)()
-local function MBACQKR_fake_script() -- creditos.RainbowText 
+coroutine.wrap(PENGKB_fake_script)()
+local function TRWBK_fake_script() -- creditos.RainbowText 
 	local script = Instance.new('Script', creditos)
 
 	local text = script.Parent
@@ -1614,8 +1466,8 @@ local function MBACQKR_fake_script() -- creditos.RainbowText
 	end
 	end
 end
-coroutine.wrap(MBACQKR_fake_script)()
-local function SKRQCRA_fake_script() -- versao.RainbowText 
+coroutine.wrap(TRWBK_fake_script)()
+local function VTOZ_fake_script() -- versao.RainbowText 
 	local script = Instance.new('Script', versao)
 
 	local text = script.Parent
@@ -1671,8 +1523,8 @@ local function SKRQCRA_fake_script() -- versao.RainbowText
 	end
 	end
 end
-coroutine.wrap(SKRQCRA_fake_script)()
-local function WEKQIQ_fake_script() -- scripts.RainbowText 
+coroutine.wrap(VTOZ_fake_script)()
+local function ZYFYLN_fake_script() -- scripts.RainbowText 
 	local script = Instance.new('Script', scripts)
 
 	local text = script.Parent
@@ -1728,8 +1580,8 @@ local function WEKQIQ_fake_script() -- scripts.RainbowText
 	end
 	end
 end
-coroutine.wrap(WEKQIQ_fake_script)()
-local function NHFPNWI_fake_script() -- creditos_2.RainbowText 
+coroutine.wrap(ZYFYLN_fake_script)()
+local function BPBGCH_fake_script() -- creditos_2.RainbowText 
 	local script = Instance.new('Script', creditos_2)
 
 	local text = script.Parent
@@ -1785,4 +1637,4 @@ local function NHFPNWI_fake_script() -- creditos_2.RainbowText
 	end
 	end
 end
-coroutine.wrap(NHFPNWI_fake_script)()
+coroutine.wrap(BPBGCH_fake_script)()
