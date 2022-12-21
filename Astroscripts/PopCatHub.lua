@@ -31,7 +31,7 @@ local function EGHFF_fake_script() -- PopCatLoader.loader
 
 	local NewBlur = Instance.new('BlurEffect', game.Lighting)
 	NewBlur.Size = 0
-	wait(2)
+	wait(0.5)
 	NewBlur.Size = 1
 	
 	wait(0.03)
