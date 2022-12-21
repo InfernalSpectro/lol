@@ -1317,10 +1317,10 @@ local function KSRHPUE_fake_script() -- ativar.farmDummy
 
 	
 	local p = script.Parent
-	local text = script.Parent.Parent.Text
+	local text = script.Parent.Parent
 	script.Parent.MouseButton1Click:Connect(function()
 		
-		local poop = text --id aqui 
+		local poop = text.Text --id aqui 
 		local Event = game:GetService("Workspace")["DRadio_Script"].Event
 		Event:FireServer(poop)
 	
