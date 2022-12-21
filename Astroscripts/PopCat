@@ -44,7 +44,7 @@ local barraLateral = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
 local main = Instance.new("TextButton")
 local functions = Instance.new("TextButton")
-local player = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
 local HomeFrame = Instance.new("Frame")
 local UICorner_19 = Instance.new("UICorner")
 local title = Instance.new("TextLabel")
@@ -60,12 +60,28 @@ local discord = Instance.new("TextBox")
 local UICorner_23 = Instance.new("UICorner")
 local DarkBack = Instance.new("Frame")
 local UICorner_24 = Instance.new("UICorner")
-local PlayerFrame = Instance.new("Frame")
+local TeleportFrame = Instance.new("Frame")
 local UICorner_25 = Instance.new("UICorner")
 local ScrollingMain_2 = Instance.new("ScrollingFrame")
-local superhuman = Instance.new("TextButton")
+local waterfall = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local speed = Instance.new("TextLabel")
+local teleports = Instance.new("TextLabel")
+local spawnTp = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local threevilage = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local desert = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local lavaBoss = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local mountain = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local lavasecret = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local barn = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local undermountain = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
 
 --Properties:
 
@@ -76,10 +92,11 @@ PopCatHub.ResetOnSpawn = false
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = PopCatHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-MainFrame.Position = UDim2.new(0.253753752, 0, 0.211111113, 0)
+MainFrame.Position = UDim2.new(0.101359703, 0, 0.190384611, 0)
 MainFrame.Size = UDim2.new(0, 643, 0, 335)
 MainFrame.Active = true
 MainFrame.Draggable = true
+
 
 UICorner.Parent = MainFrame
 
@@ -138,6 +155,7 @@ ScrollingMain.BackgroundTransparency = 1.000
 ScrollingMain.BorderSizePixel = 0
 ScrollingMain.Position = UDim2.new(0.0103949597, 0, 0.038194444, 0)
 ScrollingMain.Size = UDim2.new(0, 502, 0, 277)
+ScrollingMain.CanvasPosition = Vector2.new(0, 299)
 ScrollingMain.ScrollBarThickness = 8
 
 freeFireball.Name = "freeFireball"
@@ -325,17 +343,16 @@ functions.Text = "Farm"
 functions.TextColor3 = Color3.fromRGB(255, 255, 255)
 functions.TextSize = 14.000
 
-player.Name = "player"
-player.Parent = barraLateral
-player.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-player.BorderSizePixel = 0
-player.Position = UDim2.new(0, 0, 0.329861104, 0)
-player.Size = UDim2.new(0, 108, 0, 31)
-player.Visible = false
-player.Font = Enum.Font.GothamBold
-player.Text = "Player"
-player.TextColor3 = Color3.fromRGB(255, 255, 255)
-player.TextSize = 14.000
+teleport.Name = "teleport"
+teleport.Parent = barraLateral
+teleport.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+teleport.BorderSizePixel = 0
+teleport.Position = UDim2.new(0, 0, 0.329861104, 0)
+teleport.Size = UDim2.new(0, 108, 0, 31)
+teleport.Font = Enum.Font.GothamBold
+teleport.Text = "Teleport"
+teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleport.TextSize = 14.000
 
 HomeFrame.Name = "HomeFrame"
 HomeFrame.Parent = MainFrame
@@ -434,17 +451,16 @@ DarkBack.Size = UDim2.new(0, 589, 0, 337)
 
 UICorner_24.Parent = DarkBack
 
-PlayerFrame.Name = "PlayerFrame"
-PlayerFrame.Parent = MainFrame
-PlayerFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-PlayerFrame.Position = UDim2.new(0.191290826, 0, 0.104477614, 0)
-PlayerFrame.Size = UDim2.new(0, 509, 0, 288)
-PlayerFrame.Visible = false
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = MainFrame
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TeleportFrame.Position = UDim2.new(0.191290826, 0, 0.101492539, 0)
+TeleportFrame.Size = UDim2.new(0, 509, 0, 289)
 
-UICorner_25.Parent = PlayerFrame
+UICorner_25.Parent = TeleportFrame
 
 ScrollingMain_2.Name = "ScrollingMain"
-ScrollingMain_2.Parent = PlayerFrame
+ScrollingMain_2.Parent = TeleportFrame
 ScrollingMain_2.Active = true
 ScrollingMain_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingMain_2.BackgroundTransparency = 1.000
@@ -453,32 +469,128 @@ ScrollingMain_2.Position = UDim2.new(0.0098231826, 0, 0.038194444, 0)
 ScrollingMain_2.Size = UDim2.new(0, 502, 0, 277)
 ScrollingMain_2.ScrollBarThickness = 8
 
-superhuman.Name = "superhuman"
-superhuman.Parent = ScrollingMain_2
-superhuman.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-superhuman.Position = UDim2.new(0.318725109, 0, 0.0731736422, 0)
-superhuman.Size = UDim2.new(0, 179, 0, 29)
-superhuman.Font = Enum.Font.Gotham
-superhuman.Text = "Super-Human"
-superhuman.TextColor3 = Color3.fromRGB(255, 255, 255)
-superhuman.TextSize = 14.000
+waterfall.Name = "waterfall"
+waterfall.Parent = ScrollingMain_2
+waterfall.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+waterfall.Position = UDim2.new(0.318725109, 0, 0.0731736422, 0)
+waterfall.Size = UDim2.new(0, 179, 0, 29)
+waterfall.Font = Enum.Font.Gotham
+waterfall.Text = "Waterfall"
+waterfall.TextColor3 = Color3.fromRGB(255, 255, 255)
+waterfall.TextSize = 14.000
 
-UICorner_26.Parent = superhuman
+UICorner_26.Parent = waterfall
 
-speed.Name = "speed"
-speed.Parent = ScrollingMain_2
-speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-speed.BackgroundTransparency = 1.000
-speed.Position = UDim2.new(0.368525922, 0, 0, 0)
-speed.Size = UDim2.new(0, 129, 0, 31)
-speed.Font = Enum.Font.Gotham
-speed.Text = "Player Speed"
-speed.TextColor3 = Color3.fromRGB(255, 255, 255)
-speed.TextSize = 14.000
+teleports.Name = "teleports"
+teleports.Parent = ScrollingMain_2
+teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleports.BackgroundTransparency = 1.000
+teleports.Position = UDim2.new(0.368525922, 0, 0, 0)
+teleports.Size = UDim2.new(0, 129, 0, 31)
+teleports.Font = Enum.Font.Gotham
+teleports.Text = "Teleports"
+teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleports.TextSize = 14.000
+
+spawnTp.Name = "spawnTp"
+spawnTp.Parent = ScrollingMain_2
+spawnTp.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+spawnTp.Position = UDim2.new(0.318725109, 0, 0.146416217, 0)
+spawnTp.Size = UDim2.new(0, 179, 0, 29)
+spawnTp.Font = Enum.Font.Gotham
+spawnTp.Text = "Spawn"
+spawnTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+spawnTp.TextSize = 14.000
+
+UICorner_27.Parent = spawnTp
+
+threevilage.Name = "threevilage"
+threevilage.Parent = ScrollingMain_2
+threevilage.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+threevilage.Position = UDim2.new(0.318725109, 0, 0.219915748, 0)
+threevilage.Size = UDim2.new(0, 179, 0, 29)
+threevilage.Font = Enum.Font.Gotham
+threevilage.Text = "Tree Village"
+threevilage.TextColor3 = Color3.fromRGB(255, 255, 255)
+threevilage.TextSize = 14.000
+
+UICorner_28.Parent = threevilage
+
+desert.Name = "desert"
+desert.Parent = ScrollingMain_2
+desert.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+desert.Position = UDim2.new(0.318725109, 0, 0.452800035, 0)
+desert.Size = UDim2.new(0, 179, 0, 29)
+desert.Font = Enum.Font.Gotham
+desert.Text = "Desert"
+desert.TextColor3 = Color3.fromRGB(255, 255, 255)
+desert.TextSize = 14.000
+
+UICorner_29.Parent = desert
+
+lavaBoss.Name = "lavaBoss"
+lavaBoss.Parent = ScrollingMain_2
+lavaBoss.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+lavaBoss.Position = UDim2.new(0.318725109, 0, 0.296887547, 0)
+lavaBoss.Size = UDim2.new(0, 179, 0, 29)
+lavaBoss.Font = Enum.Font.Gotham
+lavaBoss.Text = "Lava Area"
+lavaBoss.TextColor3 = Color3.fromRGB(255, 255, 255)
+lavaBoss.TextSize = 14.000
+
+UICorner_30.Parent = lavaBoss
+
+mountain.Name = "mountain"
+mountain.Parent = ScrollingMain_2
+mountain.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mountain.Position = UDim2.new(0.318725109, 0, 0.376844108, 0)
+mountain.Size = UDim2.new(0, 179, 0, 29)
+mountain.Font = Enum.Font.Gotham
+mountain.Text = "Mountain"
+mountain.TextColor3 = Color3.fromRGB(255, 255, 255)
+mountain.TextSize = 14.000
+
+UICorner_31.Parent = mountain
+
+lavasecret.Name = "lavasecret"
+lavasecret.Parent = ScrollingMain_2
+lavasecret.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+lavasecret.Position = UDim2.new(0.318725109, 0, 0.523409486, 0)
+lavasecret.Size = UDim2.new(0, 179, 0, 29)
+lavasecret.Font = Enum.Font.Gotham
+lavasecret.Text = "Lava Secret"
+lavasecret.TextColor3 = Color3.fromRGB(255, 255, 255)
+lavasecret.TextSize = 14.000
+
+UICorner_32.Parent = lavasecret
+
+barn.Name = "barn"
+barn.Parent = ScrollingMain_2
+barn.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+barn.Position = UDim2.new(0.318725109, 0, 0.671398997, 0)
+barn.Size = UDim2.new(0, 179, 0, 29)
+barn.Font = Enum.Font.Gotham
+barn.Text = "Barn"
+barn.TextColor3 = Color3.fromRGB(255, 255, 255)
+barn.TextSize = 14.000
+
+UICorner_33.Parent = barn
+
+undermountain.Name = "undermountain"
+undermountain.Parent = ScrollingMain_2
+undermountain.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+undermountain.Position = UDim2.new(0.318725109, 0, 0.602151096, 0)
+undermountain.Size = UDim2.new(0, 179, 0, 29)
+undermountain.Font = Enum.Font.Gotham
+undermountain.Text = "Under Mountain"
+undermountain.TextColor3 = Color3.fromRGB(255, 255, 255)
+undermountain.TextSize = 14.000
+
+UICorner_34.Parent = undermountain
 
 -- Scripts:
 
-local function MZWID_fake_script() -- titulo.RainbowText 
+local function UIZJMP_fake_script() -- titulo.RainbowText 
 	local script = Instance.new('Script', titulo)
 
 	local text = script.Parent
@@ -534,8 +646,8 @@ local function MZWID_fake_script() -- titulo.RainbowText
 	end
 	end
 end
-coroutine.wrap(MZWID_fake_script)()
-local function GVBL_fake_script() -- CloseWindow.LocalScript 
+coroutine.wrap(UIZJMP_fake_script)()
+local function KSCCCCY_fake_script() -- CloseWindow.LocalScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -562,8 +674,8 @@ local function GVBL_fake_script() -- CloseWindow.LocalScript
 	end)
 	
 end
-coroutine.wrap(GVBL_fake_script)()
-local function OAIAPJI_fake_script() -- CloseWindow.UIButtonEffectScript 
+coroutine.wrap(KSCCCCY_fake_script)()
+local function EFFQE_fake_script() -- CloseWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	local Button = script.Parent
@@ -632,8 +744,8 @@ local function OAIAPJI_fake_script() -- CloseWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(OAIAPJI_fake_script)()
-local function WDGXJOY_fake_script() -- MinimizeWindow.Script 
+coroutine.wrap(EFFQE_fake_script)()
+local function NMAWVC_fake_script() -- MinimizeWindow.Script 
 	local script = Instance.new('Script', MinimizeWindow)
 
 	Minimize = false
@@ -650,17 +762,17 @@ local function WDGXJOY_fake_script() -- MinimizeWindow.Script
 			f.Visible = false
 			um.Visible = false
 			dois.Visible = false
-			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 33), 'Out', 'Quart', 0.7)
+			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 33), 'Out', 'Quart', 1)
 			p.Visible = false
-			wait(0.7)
+			wait(1)
 			p.Visible = true
 	
 		else
 			p.Text = "_"
 			Minimize = false
-			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 335), 'Out', 'Quart', 0.7)
+			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 335), 'Out', 'Quart', 1)
 			p.Visible = false
-			wait(0.7)
+			wait(1)
 			um.Visible = true
 			dois.Visible = true
 			f.Visible = true
@@ -672,8 +784,8 @@ local function WDGXJOY_fake_script() -- MinimizeWindow.Script
 	
 	end)
 end
-coroutine.wrap(WDGXJOY_fake_script)()
-local function UVMMP_fake_script() -- MinimizeWindow.UIButtonEffectScript 
+coroutine.wrap(NMAWVC_fake_script)()
+local function WKMHXRP_fake_script() -- MinimizeWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', MinimizeWindow)
 
 	local Button = script.Parent
@@ -742,8 +854,8 @@ local function UVMMP_fake_script() -- MinimizeWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(UVMMP_fake_script)()
-local function NETHLZF_fake_script() -- freeFireball.UIButtonEffectScript 
+coroutine.wrap(WKMHXRP_fake_script)()
+local function HHVYPVS_fake_script() -- freeFireball.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', freeFireball)
 
 	local Button = script.Parent
@@ -751,8 +863,8 @@ local function NETHLZF_fake_script() -- freeFireball.UIButtonEffectScript
 	
 	--Values
 end
-coroutine.wrap(NETHLZF_fake_script)()
-local function YEIMM_fake_script() -- farmboss.farmDummy 
+coroutine.wrap(HHVYPVS_fake_script)()
+local function VLPS_fake_script() -- farmboss.farmDummy 
 	local script = Instance.new('Script', farmboss)
 
 	
@@ -804,8 +916,8 @@ local function YEIMM_fake_script() -- farmboss.farmDummy
 		
 	end)
 end
-coroutine.wrap(YEIMM_fake_script)()
-local function USXH_fake_script() -- farmboss.UIButtonEffectScript 
+coroutine.wrap(VLPS_fake_script)()
+local function YMIFZ_fake_script() -- farmboss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmboss)
 
 	local Button = script.Parent
@@ -874,8 +986,8 @@ local function USXH_fake_script() -- farmboss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(USXH_fake_script)()
-local function AYNDJ_fake_script() -- farmcoins.farmCoins 
+coroutine.wrap(YMIFZ_fake_script)()
+local function YWWUX_fake_script() -- farmcoins.farmCoins 
 	local script = Instance.new('Script', farmcoins)
 
 	
@@ -894,8 +1006,8 @@ local function AYNDJ_fake_script() -- farmcoins.farmCoins
 		
 	end)
 end
-coroutine.wrap(AYNDJ_fake_script)()
-local function MEVOE_fake_script() -- farmcoins.UIButtonEffectScript 
+coroutine.wrap(YWWUX_fake_script)()
+local function VHAOI_fake_script() -- farmcoins.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmcoins)
 
 	local Button = script.Parent
@@ -964,8 +1076,8 @@ local function MEVOE_fake_script() -- farmcoins.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(MEVOE_fake_script)()
-local function MNNTI_fake_script() -- farmdummy.farmDummy 
+coroutine.wrap(VHAOI_fake_script)()
+local function KDQL_fake_script() -- farmdummy.farmDummy 
 	local script = Instance.new('Script', farmdummy)
 
 	
@@ -996,8 +1108,8 @@ local function MNNTI_fake_script() -- farmdummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(MNNTI_fake_script)()
-local function BHODQ_fake_script() -- farmdummy.UIButtonEffectScript 
+coroutine.wrap(KDQL_fake_script)()
+local function BWVWK_fake_script() -- farmdummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy)
 
 	local Button = script.Parent
@@ -1066,8 +1178,8 @@ local function BHODQ_fake_script() -- farmdummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(BHODQ_fake_script)()
-local function COKMWF_fake_script() -- farmdummy5k.farmDummy 
+coroutine.wrap(BWVWK_fake_script)()
+local function PEIN_fake_script() -- farmdummy5k.farmDummy 
 	local script = Instance.new('Script', farmdummy5k)
 
 	
@@ -1100,8 +1212,8 @@ local function COKMWF_fake_script() -- farmdummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(COKMWF_fake_script)()
-local function VMSTA_fake_script() -- farmdummy5k.UIButtonEffectScript 
+coroutine.wrap(PEIN_fake_script)()
+local function UXZZF_fake_script() -- farmdummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy5k)
 
 	local Button = script.Parent
@@ -1170,8 +1282,8 @@ local function VMSTA_fake_script() -- farmdummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(VMSTA_fake_script)()
-local function YAAXZO_fake_script() -- antiafkHatredBR.farmDummy 
+coroutine.wrap(UXZZF_fake_script)()
+local function CKTB_fake_script() -- antiafkHatredBR.farmDummy 
 	local script = Instance.new('Script', antiafkHatredBR)
 
 	
@@ -1184,8 +1296,8 @@ local function YAAXZO_fake_script() -- antiafkHatredBR.farmDummy
 		
 	end)
 end
-coroutine.wrap(YAAXZO_fake_script)()
-local function LLJZ_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
+coroutine.wrap(CKTB_fake_script)()
+local function DEDR_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', antiafkHatredBR)
 
 	local Button = script.Parent
@@ -1254,8 +1366,8 @@ local function LLJZ_fake_script() -- antiafkHatredBR.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(LLJZ_fake_script)()
-local function NVIUN_fake_script() -- ScrollingMain.Script 
+coroutine.wrap(DEDR_fake_script)()
+local function BHVIEJ_fake_script() -- ScrollingMain.Script 
 	local script = Instance.new('Script', ScrollingMain)
 
 	local text = script.Parent
@@ -1311,8 +1423,8 @@ local function NVIUN_fake_script() -- ScrollingMain.Script
 		end
 	end
 end
-coroutine.wrap(NVIUN_fake_script)()
-local function KSRHPUE_fake_script() -- ativar.farmDummy 
+coroutine.wrap(BHVIEJ_fake_script)()
+local function YZCFQB_fake_script() -- ativar.farmDummy 
 	local script = Instance.new('Script', ativar)
 
 	
@@ -1327,8 +1439,8 @@ local function KSRHPUE_fake_script() -- ativar.farmDummy
 		
 	end)
 end
-coroutine.wrap(KSRHPUE_fake_script)()
-local function RCUMGS_fake_script() -- ativar.UIButtonEffectScript 
+coroutine.wrap(YZCFQB_fake_script)()
+local function LXCZPTB_fake_script() -- ativar.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', ativar)
 
 	local Button = script.Parent
@@ -1397,8 +1509,8 @@ local function RCUMGS_fake_script() -- ativar.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(RCUMGS_fake_script)()
-local function UGSASCF_fake_script() -- gotoDummy5k.UIButtonEffectScript 
+coroutine.wrap(LXCZPTB_fake_script)()
+local function ZTXVX_fake_script() -- gotoDummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoDummy5k)
 
 	local Button = script.Parent
@@ -1467,8 +1579,8 @@ local function UGSASCF_fake_script() -- gotoDummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(UGSASCF_fake_script)()
-local function AWHPNXQ_fake_script() -- gotoDummy5k.farmDummy 
+coroutine.wrap(ZTXVX_fake_script)()
+local function EREIR_fake_script() -- gotoDummy5k.farmDummy 
 	local script = Instance.new('Script', gotoDummy5k)
 
 	
@@ -1480,8 +1592,8 @@ local function AWHPNXQ_fake_script() -- gotoDummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(AWHPNXQ_fake_script)()
-local function ZAIGH_fake_script() -- gotoDummy.UIButtonEffectScript 
+coroutine.wrap(EREIR_fake_script)()
+local function LGURL_fake_script() -- gotoDummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoDummy)
 
 	local Button = script.Parent
@@ -1550,8 +1662,8 @@ local function ZAIGH_fake_script() -- gotoDummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ZAIGH_fake_script)()
-local function ZRBXY_fake_script() -- gotoDummy.farmDummy 
+coroutine.wrap(LGURL_fake_script)()
+local function QEQF_fake_script() -- gotoDummy.farmDummy 
 	local script = Instance.new('Script', gotoDummy)
 
 	
@@ -1563,8 +1675,8 @@ local function ZRBXY_fake_script() -- gotoDummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(ZRBXY_fake_script)()
-local function AEUXSR_fake_script() -- gotoBossSpawn.UIButtonEffectScript 
+coroutine.wrap(QEQF_fake_script)()
+local function SIDZXBH_fake_script() -- gotoBossSpawn.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoBossSpawn)
 
 	local Button = script.Parent
@@ -1633,8 +1745,8 @@ local function AEUXSR_fake_script() -- gotoBossSpawn.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AEUXSR_fake_script)()
-local function KANK_fake_script() -- gotoBossSpawn.farmDummy 
+coroutine.wrap(SIDZXBH_fake_script)()
+local function GKQUA_fake_script() -- gotoBossSpawn.farmDummy 
 	local script = Instance.new('Script', gotoBossSpawn)
 
 	
@@ -1647,8 +1759,8 @@ local function KANK_fake_script() -- gotoBossSpawn.farmDummy
 	
 	end)
 end
-coroutine.wrap(KANK_fake_script)()
-local function KFKU_fake_script() -- loopFlingAll.farmDummy 
+coroutine.wrap(GKQUA_fake_script)()
+local function YWKVGC_fake_script() -- loopFlingAll.farmDummy 
 	local script = Instance.new('Script', loopFlingAll)
 
 	
@@ -1660,8 +1772,8 @@ local function KFKU_fake_script() -- loopFlingAll.farmDummy
 	
 	end)
 end
-coroutine.wrap(KFKU_fake_script)()
-local function JIIGKE_fake_script() -- loopFlingAll.UIButtonEffectScript 
+coroutine.wrap(YWKVGC_fake_script)()
+local function FWYGUAW_fake_script() -- loopFlingAll.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', loopFlingAll)
 
 	local Button = script.Parent
@@ -1730,8 +1842,8 @@ local function JIIGKE_fake_script() -- loopFlingAll.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(JIIGKE_fake_script)()
-local function PSBMVX_fake_script() -- main.UIButtonEffectScript 
+coroutine.wrap(FWYGUAW_fake_script)()
+local function LFJNOH_fake_script() -- main.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', main)
 
 	local Button = script.Parent
@@ -1800,18 +1912,20 @@ local function PSBMVX_fake_script() -- main.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(PSBMVX_fake_script)()
-local function VXKIESV_fake_script() -- main.Script 
+coroutine.wrap(LFJNOH_fake_script)()
+local function PPPZK_fake_script() -- main.Script 
 	local script = Instance.new('Script', main)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 		script.Parent.Parent.Parent.FunctionsFrame.Visible = false
 		script.Parent.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.Parent.TeleportFrame.Visible = false
+	
 	end)
 end
-coroutine.wrap(VXKIESV_fake_script)()
-local function SDFZY_fake_script() -- functions.UIButtonEffectScript 
+coroutine.wrap(PPPZK_fake_script)()
+local function WJVLFME_fake_script() -- functions.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', functions)
 
 	local Button = script.Parent
@@ -1880,20 +1994,22 @@ local function SDFZY_fake_script() -- functions.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(SDFZY_fake_script)()
-local function SLXAVT_fake_script() -- functions.Script 
+coroutine.wrap(WJVLFME_fake_script)()
+local function BWXLJ_fake_script() -- functions.Script 
 	local script = Instance.new('Script', functions)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	script.Parent.Parent.Parent.FunctionsFrame.Visible = true
-	script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.TeleportFrame.Visible = false	
+	
 	end)
 	
 end
-coroutine.wrap(SLXAVT_fake_script)()
-local function OKVOCAW_fake_script() -- player.UIButtonEffectScript 
-	local script = Instance.new('LocalScript', player)
+coroutine.wrap(BWXLJ_fake_script)()
+local function NULE_fake_script() -- teleport.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', teleport)
 
 	local Button = script.Parent
 	Button.AutoButtonColor = false
@@ -1961,19 +2077,20 @@ local function OKVOCAW_fake_script() -- player.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(OKVOCAW_fake_script)()
-local function RAKZBQ_fake_script() -- player.Script 
-	local script = Instance.new('Script', player)
+coroutine.wrap(NULE_fake_script)()
+local function MFJGBAZ_fake_script() -- teleport.Script 
+	local script = Instance.new('Script', teleport)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
-	script.Parent.Parent.Parent.FunctionsFrame.Visible = true
+	script.Parent.Parent.Parent.FunctionsFrame.Visible = false
 	script.Parent.Parent.Parent.HomeFrame.Visible = false
+	script.Parent.Parent.Parent.TeleportFrame.Visible = true	
 	end)
 	
 end
-coroutine.wrap(RAKZBQ_fake_script)()
-local function WAID_fake_script() -- versao.RainbowText 
+coroutine.wrap(MFJGBAZ_fake_script)()
+local function MXDJWEZ_fake_script() -- versao.RainbowText 
 	local script = Instance.new('Script', versao)
 
 	local text = script.Parent
@@ -2029,8 +2146,8 @@ local function WAID_fake_script() -- versao.RainbowText
 	end
 	end
 end
-coroutine.wrap(WAID_fake_script)()
-local function CKQJAE_fake_script() -- rejoin.UIButtonEffectScript 
+coroutine.wrap(MXDJWEZ_fake_script)()
+local function NFFLN_fake_script() -- rejoin.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', rejoin)
 
 	local Button = script.Parent
@@ -2099,8 +2216,8 @@ local function CKQJAE_fake_script() -- rejoin.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(CKQJAE_fake_script)()
-local function AGHF_fake_script() -- rejoin.Script 
+coroutine.wrap(NFFLN_fake_script)()
+local function TLQZZV_fake_script() -- rejoin.Script 
 	local script = Instance.new('Script', rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2124,8 +2241,8 @@ local function AGHF_fake_script() -- rejoin.Script
 	end)
 	
 end
-coroutine.wrap(AGHF_fake_script)()
-local function PONLJGB_fake_script() -- HomeFrame.SetVariables 
+coroutine.wrap(TLQZZV_fake_script)()
+local function QDMW_fake_script() -- HomeFrame.SetVariables 
 	local script = Instance.new('LocalScript', HomeFrame)
 
 	local Players = game:GetService("Players")
@@ -2138,8 +2255,8 @@ local function PONLJGB_fake_script() -- HomeFrame.SetVariables
 	
 	script.Parent.username.Text = Player.DisplayName.. " (" ..Player.Name.. ")"
 end
-coroutine.wrap(PONLJGB_fake_script)()
-local function ZHMZKRF_fake_script() -- ScrollingMain_2.Script 
+coroutine.wrap(QDMW_fake_script)()
+local function CGDT_fake_script() -- ScrollingMain_2.Script 
 	local script = Instance.new('Script', ScrollingMain_2)
 
 	local text = script.Parent
@@ -2195,9 +2312,9 @@ local function ZHMZKRF_fake_script() -- ScrollingMain_2.Script
 		end
 	end
 end
-coroutine.wrap(ZHMZKRF_fake_script)()
-local function LHRM_fake_script() -- superhuman.UIButtonEffectScript 
-	local script = Instance.new('LocalScript', superhuman)
+coroutine.wrap(CGDT_fake_script)()
+local function XNOS_fake_script() -- waterfall.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', waterfall)
 
 	local Button = script.Parent
 	Button.AutoButtonColor = false
@@ -2265,24 +2382,720 @@ local function LHRM_fake_script() -- superhuman.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(LHRM_fake_script)()
-local function YGHXHJP_fake_script() -- superhuman.LocalScript 
-	local script = Instance.new('LocalScript', superhuman)
+coroutine.wrap(XNOS_fake_script)()
+local function FPUC_fake_script() -- waterfall.Script 
+	local script = Instance.new('Script', waterfall)
 
-	function onPlayerEntered(newPlayer) -- This finds the player
-		newPlayer.Character.Humanoid.WalkSpeed = 100 -- This change the walkspeed
-	end
-	
-	
-	
-	
 	script.Parent.MouseButton1Click:Connect(function()
 	
-		onPlayerEntered()
-		
-	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(1070.522705078125, -145.90621948242188, -86.79383087158203)
 	
 	end)
-	
 end
-coroutine.wrap(YGHXHJP_fake_script)()
+coroutine.wrap(FPUC_fake_script)()
+local function XEPWQNB_fake_script() -- teleports.RainbowText 
+	local script = Instance.new('Script', teleports)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(XEPWQNB_fake_script)()
+local function CTLXW_fake_script() -- spawnTp.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', spawnTp)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(CTLXW_fake_script)()
+local function ZBHDI_fake_script() -- spawnTp.Script 
+	local script = Instance.new('Script', spawnTp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(1070.522705078125, -145.90621948242188, -86.79383087158203)
+	
+	end)
+end
+coroutine.wrap(ZBHDI_fake_script)()
+local function NJZMT_fake_script() -- threevilage.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', threevilage)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(NJZMT_fake_script)()
+local function VBZCFHV_fake_script() -- threevilage.Script 
+	local script = Instance.new('Script', threevilage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(1289.1318359375, -70.12591552734375, 27.895923614501953)
+	
+	end)
+end
+coroutine.wrap(VBZCFHV_fake_script)()
+local function YZZUT_fake_script() -- desert.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', desert)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(YZZUT_fake_script)()
+local function DLLZN_fake_script() -- desert.Script 
+	local script = Instance.new('Script', desert)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(346.2204895019531, -141.31346130371094, -587.070068359375)
+	
+	end)
+end
+coroutine.wrap(DLLZN_fake_script)()
+local function AJFMAPE_fake_script() -- lavaBoss.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', lavaBoss)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(AJFMAPE_fake_script)()
+local function JHHFURZ_fake_script() -- lavaBoss.Script 
+	local script = Instance.new('Script', lavaBoss)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(1289.1318359375, -70.12591552734375, 27.895923614501953)
+	
+	end)
+end
+coroutine.wrap(JHHFURZ_fake_script)()
+local function CSHVG_fake_script() -- mountain.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', mountain)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(CSHVG_fake_script)()
+local function RPYZZM_fake_script() -- mountain.Script 
+	local script = Instance.new('Script', mountain)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(398.38525390625, 85.16826629638672, 339.61297607421875)
+	
+	end)
+end
+coroutine.wrap(RPYZZM_fake_script)()
+local function NZPHCBX_fake_script() -- lavasecret.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', lavasecret)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(NZPHCBX_fake_script)()
+local function DVQDRNU_fake_script() -- lavasecret.Script 
+	local script = Instance.new('Script', lavasecret)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(-583.2971801757812, -57.48273849487305, 1275.0523681640625)
+	
+	end)
+end
+coroutine.wrap(DVQDRNU_fake_script)()
+local function FVXAL_fake_script() -- barn.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', barn)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(FVXAL_fake_script)()
+local function NQMTNPY_fake_script() -- barn.Script 
+	local script = Instance.new('Script', barn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(409.9377136230469, -46.58744430541992, 344.2377624511719)
+	
+	end)
+end
+coroutine.wrap(NQMTNPY_fake_script)()
+local function TRMX_fake_script() -- undermountain.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', undermountain)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(TRMX_fake_script)()
+local function CGVVXW_fake_script() -- undermountain.Script 
+	local script = Instance.new('Script', undermountain)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+		P.CFrame = CFrame.new(409.9377136230469, -46.58744430541992, 344.2377624511719)
+	
+	end)
+end
+coroutine.wrap(CGVVXW_fake_script)()
