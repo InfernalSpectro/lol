@@ -140,6 +140,9 @@ MainFrame.Parent = PopCatHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 MainFrame.Position = UDim2.new(0.10125, 0, 0.18875502, 0)
 MainFrame.Size = UDim2.new(0, 643, 0, 335)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
 
 UICorner.Parent = MainFrame
 
