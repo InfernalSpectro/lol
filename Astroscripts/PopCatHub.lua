@@ -1,83 +1,12 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+-- Bro seeing the source 💀💀
 
 local PopCatLoader = Instance.new("ScreenGui")
 local img = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
-
---Properties:
---Watermark by PopCatHub
-
---VARIABLES
-local pg = game.Players.LocalPlayer.PlayerGui.LevelBar
-local barb = pg.BarBackground
-local bar = pg.Bar
-local text = pg.ExpBarText
-
-text.Text = "Mod Created by PopCatHub"
-bar.Visible = false
-barb.Visible = false
-
-	local add = 10
-	wait(1)
-	local k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	while true do
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255,k/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(0/255,255/255,k/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(k/255,0/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
-	k = k + add
-	wait()
-	end
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	end
-
---VARIABLES
 PopCatLoader.Name = "PopCatLoader"
 PopCatLoader.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 PopCatLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 PopCatLoader.ResetOnSpawn = false
-
 img.Name = "img"
 img.Parent = PopCatLoader
 img.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -85,11 +14,7 @@ img.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 img.Position = UDim2.new(0.500999987, 0, -30, 0)
 img.Size = UDim2.new(0, 100, 0, 100)
 img.Image = "rbxassetid://11869068856"
-
 UICorner.Parent = img
-
--- Scripts:
-
 local function EGHFF_fake_script() -- PopCatLoader.loader 
 	local script = Instance.new('Script', PopCatLoader)
 
@@ -154,8 +79,6 @@ local function EGHFF_fake_script() -- PopCatLoader.loader
 	script.Parent.img:TweenPosition(UDim2.new(0.501, 0,0.501, 0), 'Out', 'Quart', 2)
 	wait(3)
 	script.Parent.img:TweenSize(UDim2.new(0, 0.7,0, 0), 'InOut', 'Quart', 1.5)
-	
-	
 	wait(0.03)
 	NewBlur.Size = 27
 	wait(0.03)
@@ -217,7 +140,5 @@ local function EGHFF_fake_script() -- PopCatLoader.loader
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/PopCat", true))()
 	print("PopCatHub Loaded")
 	script.Parent:Destroy()
-	
-	
 end
 coroutine.wrap(EGHFF_fake_script)()
