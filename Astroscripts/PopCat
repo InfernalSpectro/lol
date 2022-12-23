@@ -84,6 +84,8 @@ MainFrame.Parent = PopCatHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 MainFrame.Position = UDim2.new(0.148750007, 0, 0.178714857, 0)
 MainFrame.Size = UDim2.new(0, 611, 0, 333)
+MainFrame.Active = true
+MainFrame.Draggable = true
 
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = MainFrame
@@ -476,6 +478,10 @@ MinimizedState.BackgroundTransparency = 1.000
 MinimizedState.Position = UDim2.new(0.140000001, 0, 0.182730928, 0)
 MinimizedState.Size = UDim2.new(0.0549999997, 0, 0.0819370598, 0)
 MinimizedState.Visible = false
+MinimizedState.Active = true
+MinimizedState.Draggable = true
+
+
 
 LogoMinimized_2.Name = "LogoMinimized"
 LogoMinimized_2.Parent = MinimizedState
