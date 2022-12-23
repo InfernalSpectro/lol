@@ -1,4 +1,4 @@
--- PopCat Hub Source Code
+-- PopCatHub | Source Code 
 -- Version: 1.3
 
 -- Instances:
@@ -53,81 +53,94 @@ local UICorner_16 = Instance.new("UICorner")
 local barraLateral = Instance.new("Frame")
 local UICorner_17 = Instance.new("UICorner")
 local main = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local functions = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local teleport = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local fun = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local player = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local HomeFrame = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
 local UIStroke_12 = Instance.new("UIStroke")
+local functions = Instance.new("TextButton")
+local UIStroke_13 = Instance.new("UIStroke")
+local teleport = Instance.new("TextButton")
+local UIStroke_14 = Instance.new("UIStroke")
+local fun = Instance.new("TextButton")
+local UIStroke_15 = Instance.new("UIStroke")
+local player = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local HomeFrame = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local UIStroke_16 = Instance.new("UIStroke")
 local title = Instance.new("TextLabel")
 local versao = Instance.new("TextLabel")
 local rejoin = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local UIStroke_13 = Instance.new("UIStroke")
+local UICorner_20 = Instance.new("UICorner")
+local UIStroke_17 = Instance.new("UIStroke")
 local userimg = Instance.new("Frame")
-local UICorner_25 = Instance.new("UICorner")
-local UIStroke_14 = Instance.new("UIStroke")
+local UICorner_21 = Instance.new("UICorner")
+local UIStroke_18 = Instance.new("UIStroke")
 local ImageLabel = Instance.new("ImageLabel")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local username = Instance.new("TextLabel")
 local discord = Instance.new("TextBox")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local TeleportFrame = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local UIStroke_15 = Instance.new("UIStroke")
+local UICorner_24 = Instance.new("UICorner")
+local UIStroke_19 = Instance.new("UIStroke")
 local ScrollingMain_2 = Instance.new("ScrollingFrame")
 local waterfall = Instance.new("TextButton")
-local UIStroke_16 = Instance.new("UIStroke")
-local UICorner_29 = Instance.new("UICorner")
+local UIStroke_20 = Instance.new("UIStroke")
+local UICorner_25 = Instance.new("UICorner")
 local teleports = Instance.new("TextLabel")
 local spawnTp = Instance.new("TextButton")
-local UIStroke_17 = Instance.new("UIStroke")
-local UICorner_30 = Instance.new("UICorner")
-local threevilage = Instance.new("TextButton")
-local UIStroke_18 = Instance.new("UIStroke")
-local UICorner_31 = Instance.new("UICorner")
-local desert = Instance.new("TextButton")
-local UIStroke_19 = Instance.new("UIStroke")
-local UICorner_32 = Instance.new("UICorner")
-local lavaBoss = Instance.new("TextButton")
-local UIStroke_20 = Instance.new("UIStroke")
-local UICorner_33 = Instance.new("UICorner")
-local mountain = Instance.new("TextButton")
 local UIStroke_21 = Instance.new("UIStroke")
-local UICorner_34 = Instance.new("UICorner")
-local lavasecret = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local threevilage = Instance.new("TextButton")
 local UIStroke_22 = Instance.new("UIStroke")
-local UICorner_35 = Instance.new("UICorner")
-local barn = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local desert = Instance.new("TextButton")
 local UIStroke_23 = Instance.new("UIStroke")
-local UICorner_36 = Instance.new("UICorner")
-local undermountain = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local lavaBoss = Instance.new("TextButton")
 local UIStroke_24 = Instance.new("UIStroke")
-local UICorner_37 = Instance.new("UICorner")
-local secureZone = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local mountain = Instance.new("TextButton")
 local UIStroke_25 = Instance.new("UIStroke")
-local UICorner_38 = Instance.new("UICorner")
-local FunFrame = Instance.new("Frame")
-local UICorner_39 = Instance.new("UICorner")
-local loopFlingAll = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local lavasecret = Instance.new("TextButton")
 local UIStroke_26 = Instance.new("UIStroke")
-local UICorner_40 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
+local barn = Instance.new("TextButton")
+local UIStroke_27 = Instance.new("UIStroke")
+local UICorner_32 = Instance.new("UICorner")
+local undermountain = Instance.new("TextButton")
+local UIStroke_28 = Instance.new("UIStroke")
+local UICorner_33 = Instance.new("UICorner")
+local secureZone = Instance.new("TextButton")
+local UIStroke_29 = Instance.new("UIStroke")
+local UICorner_34 = Instance.new("UICorner")
+local FunFrame = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local loopFlingAll = Instance.new("TextButton")
+local UIStroke_30 = Instance.new("UIStroke")
+local UICorner_36 = Instance.new("UICorner")
 local fun_2 = Instance.new("TextLabel")
 local aviso = Instance.new("TextLabel")
 local pendulum = Instance.new("TextButton")
-local UIStroke_27 = Instance.new("UIStroke")
-local UICorner_41 = Instance.new("UICorner")
+local UIStroke_31 = Instance.new("UIStroke")
+local UICorner_37 = Instance.new("UICorner")
 local tryKickAll = Instance.new("TextButton")
-local UIStroke_28 = Instance.new("UIStroke")
-local UICorner_42 = Instance.new("UICorner")
+local UIStroke_32 = Instance.new("UIStroke")
+local UICorner_38 = Instance.new("UICorner")
 local aviso_2 = Instance.new("TextLabel")
-local UIStroke_29 = Instance.new("UIStroke")
+local UIStroke_33 = Instance.new("UIStroke")
+local Name = Instance.new("TextBox")
+local UICorner_39 = Instance.new("UICorner")
+local UIStroke_34 = Instance.new("UIStroke")
+local ativar_2 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local customexpbar = Instance.new("TextLabel")
+local rainbow = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local UIStroke_35 = Instance.new("UIStroke")
+local separatorUp = Instance.new("Frame")
+local separatorLow = Instance.new("Frame")
+local img = Instance.new("ImageLabel")
+local UICorner_42 = Instance.new("UICorner")
 
 --Properties:
 
@@ -138,11 +151,8 @@ PopCatHub.ResetOnSpawn = false
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = PopCatHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-MainFrame.Position = UDim2.new(0.10125, 0, 0.18875502, 0)
+MainFrame.Position = UDim2.new(0.100827686, 0, 0.187654316, 0)
 MainFrame.Size = UDim2.new(0, 643, 0, 335)
-MainFrame.Active = true
-MainFrame.Draggable = true
-
 
 UICorner.Parent = MainFrame
 
@@ -188,8 +198,9 @@ UICorner_3.Parent = MinimizeWindow
 FunctionsFrame.Name = "FunctionsFrame"
 FunctionsFrame.Parent = MainFrame
 FunctionsFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-FunctionsFrame.Position = UDim2.new(0.19284603, 0, 0.0985074639, 0)
-FunctionsFrame.Size = UDim2.new(0, 508, 0, 288)
+FunctionsFrame.Position = UDim2.new(0.192846075, 0, 0.137313426, 0)
+FunctionsFrame.Size = UDim2.new(0, 508, 0, 275)
+FunctionsFrame.Visible = false
 
 UICorner_4.Parent = FunctionsFrame
 
@@ -202,8 +213,8 @@ ScrollingMain.Active = true
 ScrollingMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingMain.BackgroundTransparency = 1.000
 ScrollingMain.BorderSizePixel = 0
-ScrollingMain.Position = UDim2.new(0.0103949597, 0, 0.038194444, 0)
-ScrollingMain.Size = UDim2.new(0, 502, 0, 277)
+ScrollingMain.Position = UDim2.new(0.0103949597, 0, 0, 0)
+ScrollingMain.Size = UDim2.new(0, 502, 0, 274)
 ScrollingMain.ScrollBarThickness = 8
 
 freeFireball.Name = "freeFireball"
@@ -403,8 +414,8 @@ barraLateral.Name = "barraLateral"
 barraLateral.Parent = MainFrame
 barraLateral.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 barraLateral.BackgroundTransparency = 1.000
-barraLateral.Position = UDim2.new(0.0139968898, 0, 0.104477614, 0)
-barraLateral.Size = UDim2.new(0, 108, 0, 288)
+barraLateral.Position = UDim2.new(0.0139968898, 0, 0.137313426, 0)
+barraLateral.Size = UDim2.new(0, 108, 0, 277)
 
 UICorner_17.Parent = barraLateral
 
@@ -412,57 +423,61 @@ main.Name = "main"
 main.Parent = barraLateral
 main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 main.BorderSizePixel = 0
-main.Position = UDim2.new(0, 0, 0.038194444, 0)
-main.Size = UDim2.new(0, 108, 0, 31)
+main.Position = UDim2.new(0, 0, 0.0381944552, 0)
+main.Size = UDim2.new(0, 95, 0, 31)
 main.Font = Enum.Font.GothamBold
 main.Text = "Main"
 main.TextColor3 = Color3.fromRGB(255, 255, 255)
 main.TextSize = 14.000
 
-UICorner_18.CornerRadius = UDim.new(0, 6)
-UICorner_18.Parent = main
+UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_12.Color = Color3.fromRGB(136, 136, 136)
+UIStroke_12.Parent = main
 
 functions.Name = "functions"
 functions.Parent = barraLateral
 functions.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 functions.BorderSizePixel = 0
-functions.Position = UDim2.new(0, 0, 0.184027776, 0)
-functions.Size = UDim2.new(0, 108, 0, 31)
+functions.Position = UDim2.new(0, 0, 0.184027821, 0)
+functions.Size = UDim2.new(0, 95, 0, 31)
 functions.Font = Enum.Font.GothamBold
 functions.Text = "Farm"
 functions.TextColor3 = Color3.fromRGB(255, 255, 255)
 functions.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0, 6)
-UICorner_19.Parent = functions
+UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_13.Color = Color3.fromRGB(136, 136, 136)
+UIStroke_13.Parent = functions
 
 teleport.Name = "teleport"
 teleport.Parent = barraLateral
 teleport.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 teleport.BorderSizePixel = 0
-teleport.Position = UDim2.new(0, 0, 0.329861104, 0)
-teleport.Size = UDim2.new(0, 108, 0, 31)
+teleport.Position = UDim2.new(0, 0, 0.329861075, 0)
+teleport.Size = UDim2.new(0, 95, 0, 31)
 teleport.Font = Enum.Font.GothamBold
 teleport.Text = "Teleport"
 teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
 teleport.TextSize = 14.000
 
-UICorner_20.CornerRadius = UDim.new(0, 6)
-UICorner_20.Parent = teleport
+UIStroke_14.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_14.Color = Color3.fromRGB(136, 136, 136)
+UIStroke_14.Parent = teleport
 
 fun.Name = "fun"
 fun.Parent = barraLateral
 fun.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 fun.BorderSizePixel = 0
-fun.Position = UDim2.new(0, 0, 0.479166657, 0)
-fun.Size = UDim2.new(0, 108, 0, 31)
+fun.Position = UDim2.new(0, 0, 0.479166627, 0)
+fun.Size = UDim2.new(0, 95, 0, 31)
 fun.Font = Enum.Font.GothamBold
 fun.Text = "Fun"
 fun.TextColor3 = Color3.fromRGB(255, 255, 255)
 fun.TextSize = 14.000
 
-UICorner_21.CornerRadius = UDim.new(0, 6)
-UICorner_21.Parent = fun
+UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_15.Color = Color3.fromRGB(136, 136, 136)
+UIStroke_15.Parent = fun
 
 player.Name = "player"
 player.Parent = barraLateral
@@ -476,19 +491,19 @@ player.Text = "Player"
 player.TextColor3 = Color3.fromRGB(255, 255, 255)
 player.TextSize = 14.000
 
-UICorner_22.CornerRadius = UDim.new(0, 6)
-UICorner_22.Parent = player
+UICorner_18.CornerRadius = UDim.new(0, 6)
+UICorner_18.Parent = player
 
 HomeFrame.Name = "HomeFrame"
 HomeFrame.Parent = MainFrame
 HomeFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-HomeFrame.Position = UDim2.new(0.191290826, 0, 0.0985074639, 0)
-HomeFrame.Size = UDim2.new(0, 509, 0, 288)
+HomeFrame.Position = UDim2.new(0.19129087, 0, 0.137313426, 0)
+HomeFrame.Size = UDim2.new(0, 509, 0, 275)
 HomeFrame.Visible = false
 
-UICorner_23.Parent = HomeFrame
+UICorner_19.Parent = HomeFrame
 
-UIStroke_12.Parent = HomeFrame
+UIStroke_16.Parent = HomeFrame
 
 title.Name = "title"
 title.Parent = HomeFrame
@@ -523,11 +538,11 @@ rejoin.Text = "Rejoin"
 rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
 rejoin.TextSize = 14.000
 
-UICorner_24.Parent = rejoin
+UICorner_20.Parent = rejoin
 
-UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_13.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_13.Parent = rejoin
+UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_17.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_17.Parent = rejoin
 
 userimg.Name = "userimg"
 userimg.Parent = HomeFrame
@@ -536,10 +551,10 @@ userimg.BackgroundTransparency = 1.000
 userimg.Position = UDim2.new(0.053149607, 0, 0.201388896, 0)
 userimg.Size = UDim2.new(0, 100, 0, 100)
 
-UICorner_25.Parent = userimg
+UICorner_21.Parent = userimg
 
-UIStroke_14.Color = Color3.fromRGB(255, 255, 255)
-UIStroke_14.Parent = userimg
+UIStroke_18.Color = Color3.fromRGB(255, 255, 255)
+UIStroke_18.Parent = userimg
 
 ImageLabel.Parent = userimg
 ImageLabel.Active = true
@@ -548,7 +563,7 @@ ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Size = UDim2.new(0, 100, 0, 100)
 ImageLabel.Image = "rbxassetid://11869068856"
 
-UICorner_26.Parent = ImageLabel
+UICorner_22.Parent = ImageLabel
 
 username.Name = "username"
 username.Parent = HomeFrame
@@ -575,18 +590,18 @@ discord.Text = "https://discord.gg/qcuUfFWJZw"
 discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 discord.TextSize = 12.000
 
-UICorner_27.Parent = discord
+UICorner_23.Parent = discord
 
 TeleportFrame.Name = "TeleportFrame"
 TeleportFrame.Parent = MainFrame
 TeleportFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-TeleportFrame.Position = UDim2.new(0.191290826, 0, 0.0955223888, 0)
-TeleportFrame.Size = UDim2.new(0, 509, 0, 289)
+TeleportFrame.Position = UDim2.new(0.19129087, 0, 0.137313426, 0)
+TeleportFrame.Size = UDim2.new(0, 509, 0, 275)
 TeleportFrame.Visible = false
 
-UICorner_28.Parent = TeleportFrame
+UICorner_24.Parent = TeleportFrame
 
-UIStroke_15.Parent = TeleportFrame
+UIStroke_19.Parent = TeleportFrame
 
 ScrollingMain_2.Name = "ScrollingMain"
 ScrollingMain_2.Parent = TeleportFrame
@@ -594,8 +609,8 @@ ScrollingMain_2.Active = true
 ScrollingMain_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingMain_2.BackgroundTransparency = 1.000
 ScrollingMain_2.BorderSizePixel = 0
-ScrollingMain_2.Position = UDim2.new(0.0098231826, 0, 0.038194444, 0)
-ScrollingMain_2.Size = UDim2.new(0, 502, 0, 277)
+ScrollingMain_2.Position = UDim2.new(0.00982312299, 0, 0, 0)
+ScrollingMain_2.Size = UDim2.new(0, 502, 0, 273)
 ScrollingMain_2.ScrollBarThickness = 8
 
 waterfall.Name = "waterfall"
@@ -608,11 +623,11 @@ waterfall.Text = "Waterfall"
 waterfall.TextColor3 = Color3.fromRGB(255, 255, 255)
 waterfall.TextSize = 14.000
 
-UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_16.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_16.Parent = waterfall
+UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_20.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_20.Parent = waterfall
 
-UICorner_29.Parent = waterfall
+UICorner_25.Parent = waterfall
 
 teleports.Name = "teleports"
 teleports.Parent = ScrollingMain_2
@@ -635,11 +650,11 @@ spawnTp.Text = "Spawn"
 spawnTp.TextColor3 = Color3.fromRGB(255, 255, 255)
 spawnTp.TextSize = 14.000
 
-UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_17.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_17.Parent = spawnTp
+UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_21.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_21.Parent = spawnTp
 
-UICorner_30.Parent = spawnTp
+UICorner_26.Parent = spawnTp
 
 threevilage.Name = "threevilage"
 threevilage.Parent = ScrollingMain_2
@@ -651,11 +666,11 @@ threevilage.Text = "Tree Village"
 threevilage.TextColor3 = Color3.fromRGB(255, 255, 255)
 threevilage.TextSize = 14.000
 
-UIStroke_18.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_18.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_18.Parent = threevilage
+UIStroke_22.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_22.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_22.Parent = threevilage
 
-UICorner_31.Parent = threevilage
+UICorner_27.Parent = threevilage
 
 desert.Name = "desert"
 desert.Parent = ScrollingMain_2
@@ -667,11 +682,11 @@ desert.Text = "Desert"
 desert.TextColor3 = Color3.fromRGB(255, 255, 255)
 desert.TextSize = 14.000
 
-UIStroke_19.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_19.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_19.Parent = desert
+UIStroke_23.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_23.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_23.Parent = desert
 
-UICorner_32.Parent = desert
+UICorner_28.Parent = desert
 
 lavaBoss.Name = "lavaBoss"
 lavaBoss.Parent = ScrollingMain_2
@@ -683,11 +698,11 @@ lavaBoss.Text = "Lava Area"
 lavaBoss.TextColor3 = Color3.fromRGB(255, 255, 255)
 lavaBoss.TextSize = 14.000
 
-UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_20.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_20.Parent = lavaBoss
+UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_24.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_24.Parent = lavaBoss
 
-UICorner_33.Parent = lavaBoss
+UICorner_29.Parent = lavaBoss
 
 mountain.Name = "mountain"
 mountain.Parent = ScrollingMain_2
@@ -699,11 +714,11 @@ mountain.Text = "Mountain"
 mountain.TextColor3 = Color3.fromRGB(255, 255, 255)
 mountain.TextSize = 14.000
 
-UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_21.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_21.Parent = mountain
+UIStroke_25.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_25.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_25.Parent = mountain
 
-UICorner_34.Parent = mountain
+UICorner_30.Parent = mountain
 
 lavasecret.Name = "lavasecret"
 lavasecret.Parent = ScrollingMain_2
@@ -715,11 +730,11 @@ lavasecret.Text = "Lava Secret"
 lavasecret.TextColor3 = Color3.fromRGB(255, 255, 255)
 lavasecret.TextSize = 14.000
 
-UIStroke_22.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_22.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_22.Parent = lavasecret
+UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_26.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_26.Parent = lavasecret
 
-UICorner_35.Parent = lavasecret
+UICorner_31.Parent = lavasecret
 
 barn.Name = "barn"
 barn.Parent = ScrollingMain_2
@@ -731,11 +746,11 @@ barn.Text = "Barn"
 barn.TextColor3 = Color3.fromRGB(255, 255, 255)
 barn.TextSize = 14.000
 
-UIStroke_23.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_23.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_23.Parent = barn
+UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_27.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_27.Parent = barn
 
-UICorner_36.Parent = barn
+UICorner_32.Parent = barn
 
 undermountain.Name = "undermountain"
 undermountain.Parent = ScrollingMain_2
@@ -747,11 +762,11 @@ undermountain.Text = "Under Mountain"
 undermountain.TextColor3 = Color3.fromRGB(255, 255, 255)
 undermountain.TextSize = 14.000
 
-UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_24.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_24.Parent = undermountain
+UIStroke_28.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_28.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_28.Parent = undermountain
 
-UICorner_37.Parent = undermountain
+UICorner_33.Parent = undermountain
 
 secureZone.Name = "secureZone"
 secureZone.Parent = ScrollingMain_2
@@ -763,20 +778,19 @@ secureZone.Text = "Secure Zone (Farm Coins)"
 secureZone.TextColor3 = Color3.fromRGB(255, 255, 255)
 secureZone.TextSize = 14.000
 
-UIStroke_25.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_25.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_25.Parent = secureZone
+UIStroke_29.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_29.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_29.Parent = secureZone
 
-UICorner_38.Parent = secureZone
+UICorner_34.Parent = secureZone
 
 FunFrame.Name = "FunFrame"
 FunFrame.Parent = MainFrame
 FunFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-FunFrame.Position = UDim2.new(0.19284603, 0, 0.0985074639, 0)
-FunFrame.Size = UDim2.new(0.790046632, 0, 0.859701514, 0)
-FunFrame.Visible = false
+FunFrame.Position = UDim2.new(0.191290781, 0, 0.137313426, 0)
+FunFrame.Size = UDim2.new(0.790046632, 0, 0.817910433, 0)
 
-UICorner_39.Parent = FunFrame
+UICorner_35.Parent = FunFrame
 
 loopFlingAll.Name = "loopFlingAll"
 loopFlingAll.Parent = FunFrame
@@ -788,11 +802,11 @@ loopFlingAll.Text = "Loop Fling All"
 loopFlingAll.TextColor3 = Color3.fromRGB(255, 255, 255)
 loopFlingAll.TextSize = 14.000
 
-UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_26.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_26.Parent = loopFlingAll
+UIStroke_30.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_30.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_30.Parent = loopFlingAll
 
-UICorner_40.Parent = loopFlingAll
+UICorner_36.Parent = loopFlingAll
 
 fun_2.Name = "fun"
 fun_2.Parent = FunFrame
@@ -828,11 +842,11 @@ pendulum.Text = "FE Pendulum Hub"
 pendulum.TextColor3 = Color3.fromRGB(255, 255, 255)
 pendulum.TextSize = 14.000
 
-UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_27.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_27.Parent = pendulum
+UIStroke_31.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_31.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_31.Parent = pendulum
 
-UICorner_41.Parent = pendulum
+UICorner_37.Parent = pendulum
 
 tryKickAll.Name = "tryKickAll"
 tryKickAll.Parent = FunFrame
@@ -844,11 +858,11 @@ tryKickAll.Text = "Try Kick All (BETA)"
 tryKickAll.TextColor3 = Color3.fromRGB(255, 255, 255)
 tryKickAll.TextSize = 14.000
 
-UIStroke_28.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_28.Color = Color3.fromRGB(112, 112, 112)
-UIStroke_28.Parent = tryKickAll
+UIStroke_32.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_32.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_32.Parent = tryKickAll
 
-UICorner_42.Parent = tryKickAll
+UICorner_38.Parent = tryKickAll
 
 aviso_2.Name = "aviso"
 aviso_2.Parent = FunFrame
@@ -863,12 +877,93 @@ aviso_2.TextSize = 9.000
 aviso_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
 aviso_2.TextStrokeTransparency = 2.000
 
-UIStroke_29.Color = Color3.fromRGB(255, 255, 255)
-UIStroke_29.Parent = FunFrame
+UIStroke_33.Color = Color3.fromRGB(255, 255, 255)
+UIStroke_33.Parent = FunFrame
+
+Name.Name = "Name"
+Name.Parent = FunFrame
+Name.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Name.Position = UDim2.new(0.151574805, 0, 0.711805582, 0)
+Name.Size = UDim2.new(0, 169, 0, 28)
+Name.Font = Enum.Font.GothamBold
+Name.PlaceholderColor3 = Color3.fromRGB(127, 127, 127)
+Name.PlaceholderText = "Custom Name"
+Name.Text = ""
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 14.000
+
+UICorner_39.Parent = Name
+
+UIStroke_34.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_34.Parent = Name
+
+ativar_2.Name = "ativar"
+ativar_2.Parent = Name
+ativar_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ativar_2.Position = UDim2.new(1.03550303, 0, -0.0357142873, 0)
+ativar_2.Size = UDim2.new(0, 159, 0, 29)
+ativar_2.Font = Enum.Font.Gotham
+ativar_2.Text = "Mudar  Nome "
+ativar_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ativar_2.TextSize = 14.000
+
+UICorner_40.Parent = ativar_2
+
+customexpbar.Name = "customexpbar"
+customexpbar.Parent = FunFrame
+customexpbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+customexpbar.BackgroundTransparency = 1.000
+customexpbar.Position = UDim2.new(0.370078743, 0, 0.597222209, 0)
+customexpbar.Size = UDim2.new(0, 129, 0, 31)
+customexpbar.Font = Enum.Font.Gotham
+customexpbar.Text = "Custom Exp Bar"
+customexpbar.TextColor3 = Color3.fromRGB(255, 255, 255)
+customexpbar.TextSize = 14.000
+
+rainbow.Name = "rainbow"
+rainbow.Parent = FunFrame
+rainbow.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+rainbow.Position = UDim2.new(0.301181108, 0, 0.854166687, 0)
+rainbow.Size = UDim2.new(0, 198, 0, 31)
+rainbow.Visible = false
+rainbow.Font = Enum.Font.Gotham
+rainbow.Text = "Rainbow Text [OFF]"
+rainbow.TextColor3 = Color3.fromRGB(255, 255, 255)
+rainbow.TextSize = 14.000
+
+UICorner_41.Parent = rainbow
+
+UIStroke_35.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_35.Color = Color3.fromRGB(112, 112, 112)
+UIStroke_35.Parent = rainbow
+
+separatorUp.Name = "separatorUp"
+separatorUp.Parent = MainFrame
+separatorUp.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+separatorUp.BorderSizePixel = 0
+separatorUp.Position = UDim2.new(0, 0, 0.107462689, 0)
+separatorUp.Size = UDim2.new(0, 643, 0, 1)
+
+separatorLow.Name = "separatorLow"
+separatorLow.Parent = MainFrame
+separatorLow.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+separatorLow.BorderSizePixel = 0
+separatorLow.Position = UDim2.new(0.171073094, 0, 0.107462689, 0)
+separatorLow.Size = UDim2.new(0, 1, 0.889999986, 0)
+
+img.Name = "img"
+img.Parent = MainFrame
+img.AnchorPoint = Vector2.new(0.5, 0.5)
+img.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+img.Position = UDim2.new(0.500999987, 0, -30, 0)
+img.Size = UDim2.new(0, 100, 0, 100)
+img.Image = "rbxassetid://11869068856"
+
+UICorner_42.Parent = img
 
 -- Scripts:
 
-local function PYJCIR_fake_script() -- titulo.RainbowText 
+local function HBZKRGZ_fake_script() -- titulo.RainbowText 
 	local script = Instance.new('Script', titulo)
 
 	local text = script.Parent
@@ -924,36 +1019,143 @@ local function PYJCIR_fake_script() -- titulo.RainbowText
 	end
 	end
 end
-coroutine.wrap(PYJCIR_fake_script)()
-local function ZSKWB_fake_script() -- CloseWindow.LocalScript 
+coroutine.wrap(HBZKRGZ_fake_script)()
+local function PUVA_fake_script() -- CloseWindow.LocalScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		--[[
-		script.Parent.Parent.AlertPrompt.Visible = true
-		
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.5
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.10
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.15
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.20
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.25
-		wait(0.02)
-		script.Parent.Parent.DarkBack.BackgroundTransparency = 0.30
-		
-		wait(0.02)
-		--]]
+		local NewBlur = Instance.new('BlurEffect', game.Lighting)
+		NewBlur.Size = 0
+		wait(2)
+		NewBlur.Size = 1
+	
+		wait(0.03)
+		NewBlur.Size = 2
+		wait(0.03)
+		NewBlur.Size = 3
+		wait(0.03)
+		NewBlur.Size = 4
+		wait(0.03)
+		NewBlur.Size = 5
+		wait(0.03)
+		NewBlur.Size = 6
+		wait(0.03)
+		NewBlur.Size = 7
+		wait(0.03)
+		NewBlur.Size = 8
+		wait(0.03)
+		NewBlur.Size = 9
+		wait(0.03)
+		NewBlur.Size = 10
+		wait(0.03)
+		NewBlur.Size = 11
+		wait(0.03)
+		NewBlur.Size = 12
+		wait(0.03)
+		NewBlur.Size = 13
+		wait(0.03)
+		NewBlur.Size = 14
+		wait(0.03)
+		NewBlur.Size = 15
+		wait(0.03)
+		NewBlur.Size = 16
+		wait(0.03)
+		NewBlur.Size = 17
+		wait(0.03)
+		NewBlur.Size = 18
+		wait(0.03)
+		NewBlur.Size = 19
+		wait(0.03)
+		NewBlur.Size = 20
+		wait(0.03)
+		NewBlur.Size = 21
+		wait(0.03)
+		NewBlur.Size = 22
+		wait(0.03)
+		NewBlur.Size = 23
+		wait(0.03)
+		NewBlur.Size = 24
+		wait(0.03)
+		NewBlur.Size = 25
+		wait(0.03)
+		NewBlur.Size = 26
+		wait(0.03)
+		NewBlur.Size = 27
+		wait(0.03)
+		script.Parent.img:TweenPosition(UDim2.new(0.501, 0,0.501, 0), 'Out', 'Quart', 2)
+		wait(3)
+		script.Parent.img:TweenSize(UDim2.new(0, 0.7,0, 0), 'InOut', 'Quart', 1.5)
+	
+	
+		wait(0.03)
+		NewBlur.Size = 27
+		wait(0.03)
+		NewBlur.Size = 26
+		wait(0.03)
+		NewBlur.Size = 25
+		wait(0.03)
+		NewBlur.Size = 24
+		wait(0.03)
+		NewBlur.Size = 23
+		wait(0.03)
+		NewBlur.Size = 22
+		wait(0.03)
+		NewBlur.Size = 21
+		wait(0.03)
+		NewBlur.Size = 20
+		wait(0.03)
+		NewBlur.Size = 19
+		wait(0.03)
+		NewBlur.Size = 18
+		wait(0.03)
+		NewBlur.Size = 17
+		wait(0.03)
+		NewBlur.Size = 16
+		wait(0.03)
+		NewBlur.Size = 15
+		wait(0.03)
+		NewBlur.Size = 14
+		wait(0.03)
+		NewBlur.Size = 13
+		wait(0.03)
+		NewBlur.Size = 12
+		wait(0.03)
+		NewBlur.Size = 11
+		wait(0.03)
+		NewBlur.Size = 10
+		wait(0.03)
+		NewBlur.Size = 9
+		wait(0.03)
+		NewBlur.Size = 8
+		wait(0.03)
+		NewBlur.Size = 7
+		wait(0.03)
+		NewBlur.Size = 6
+		wait(0.03)
+		NewBlur.Size = 5
+		wait(0.03)
+		NewBlur.Size = 4
+		wait(0.03)
+		NewBlur.Size = 3
+		wait(0.03)
+		NewBlur.Size = 2
+		wait(0.03)
+		NewBlur.Size = 1
+		wait(0.03)
+		NewBlur.Size = 0
+		wait(0.03)
+		NewBlur:Destroy()
+		script.Parent.AstroHub.Enabled = true
+		print("PopCatHub Loaded")
+		script.Parent:Destroy()
+	
+	
 		script.Parent.Parent:Destroy()
 	end)
 	
 end
-coroutine.wrap(ZSKWB_fake_script)()
-local function TVEUOV_fake_script() -- CloseWindow.UIButtonEffectScript 
+coroutine.wrap(PUVA_fake_script)()
+local function XJZPO_fake_script() -- CloseWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	local Button = script.Parent
@@ -1022,8 +1224,8 @@ local function TVEUOV_fake_script() -- CloseWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(TVEUOV_fake_script)()
-local function XVJUWZ_fake_script() -- MinimizeWindow.Script 
+coroutine.wrap(XJZPO_fake_script)()
+local function WBIVSNU_fake_script() -- MinimizeWindow.Script 
 	local script = Instance.new('Script', MinimizeWindow)
 
 	Minimize = false
@@ -1044,17 +1246,15 @@ local function XVJUWZ_fake_script() -- MinimizeWindow.Script
 			dois.Visible = false
 			tp.Visible = false
 			fun.Visible = false
-			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 33), 'Out', 'Quart', 1)
+			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 33), 'Out', 'Quart', 0)
 			p.Visible = false
-			wait(1)
 			p.Visible = true
 	
 		else
 			p.Text = "_"
 			Minimize = false
-			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 335), 'Out', 'Quart', 1)
+			script.Parent.Parent:TweenSize(UDim2.new(0, 643,0, 335), 'Out', 'Quart', 0)
 			p.Visible = false
-			wait(1)
 			um.Visible = true
 			dois.Visible = true
 			f.Visible = true
@@ -1069,8 +1269,8 @@ local function XVJUWZ_fake_script() -- MinimizeWindow.Script
 	
 	end)
 end
-coroutine.wrap(XVJUWZ_fake_script)()
-local function FMXPEAH_fake_script() -- MinimizeWindow.UIButtonEffectScript 
+coroutine.wrap(WBIVSNU_fake_script)()
+local function JVYVEU_fake_script() -- MinimizeWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', MinimizeWindow)
 
 	local Button = script.Parent
@@ -1139,8 +1339,8 @@ local function FMXPEAH_fake_script() -- MinimizeWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(FMXPEAH_fake_script)()
-local function GDTTLYN_fake_script() -- UIStroke.Script 
+coroutine.wrap(JVYVEU_fake_script)()
+local function WENSW_fake_script() -- UIStroke.Script 
 	local script = Instance.new('Script', UIStroke)
 
 	local text = script.Parent
@@ -1196,8 +1396,8 @@ local function GDTTLYN_fake_script() -- UIStroke.Script
 		end
 	end
 end
-coroutine.wrap(GDTTLYN_fake_script)()
-local function PBSCTH_fake_script() -- freeFireball.UIButtonEffectScript 
+coroutine.wrap(WENSW_fake_script)()
+local function UJFSR_fake_script() -- freeFireball.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', freeFireball)
 
 	local Button = script.Parent
@@ -1205,8 +1405,8 @@ local function PBSCTH_fake_script() -- freeFireball.UIButtonEffectScript
 	
 	--Values
 end
-coroutine.wrap(PBSCTH_fake_script)()
-local function XLAO_fake_script() -- farmboss.farmDummy 
+coroutine.wrap(UJFSR_fake_script)()
+local function OKBQEO_fake_script() -- farmboss.farmDummy 
 	local script = Instance.new('Script', farmboss)
 
 	
@@ -1258,8 +1458,8 @@ local function XLAO_fake_script() -- farmboss.farmDummy
 		
 	end)
 end
-coroutine.wrap(XLAO_fake_script)()
-local function WWWVMFJ_fake_script() -- farmboss.UIButtonEffectScript 
+coroutine.wrap(OKBQEO_fake_script)()
+local function DORLRHG_fake_script() -- farmboss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmboss)
 
 	local Button = script.Parent
@@ -1328,8 +1528,8 @@ local function WWWVMFJ_fake_script() -- farmboss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(WWWVMFJ_fake_script)()
-local function SWFP_fake_script() -- farmcoins.farmCoins 
+coroutine.wrap(DORLRHG_fake_script)()
+local function SQWQIS_fake_script() -- farmcoins.farmCoins 
 	local script = Instance.new('Script', farmcoins)
 
 	
@@ -1348,8 +1548,8 @@ local function SWFP_fake_script() -- farmcoins.farmCoins
 		
 	end)
 end
-coroutine.wrap(SWFP_fake_script)()
-local function GDDE_fake_script() -- farmcoins.UIButtonEffectScript 
+coroutine.wrap(SQWQIS_fake_script)()
+local function ZFSLOS_fake_script() -- farmcoins.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmcoins)
 
 	local Button = script.Parent
@@ -1418,8 +1618,8 @@ local function GDDE_fake_script() -- farmcoins.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(GDDE_fake_script)()
-local function VNMRKOV_fake_script() -- farmdummy.farmDummy 
+coroutine.wrap(ZFSLOS_fake_script)()
+local function HRWB_fake_script() -- farmdummy.farmDummy 
 	local script = Instance.new('Script', farmdummy)
 
 	
@@ -1450,8 +1650,8 @@ local function VNMRKOV_fake_script() -- farmdummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(VNMRKOV_fake_script)()
-local function HMHT_fake_script() -- farmdummy.UIButtonEffectScript 
+coroutine.wrap(HRWB_fake_script)()
+local function RMKK_fake_script() -- farmdummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy)
 
 	local Button = script.Parent
@@ -1520,8 +1720,8 @@ local function HMHT_fake_script() -- farmdummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(HMHT_fake_script)()
-local function SOOAVCH_fake_script() -- farmdummy5k.farmDummy 
+coroutine.wrap(RMKK_fake_script)()
+local function JNNEXY_fake_script() -- farmdummy5k.farmDummy 
 	local script = Instance.new('Script', farmdummy5k)
 
 	
@@ -1554,8 +1754,8 @@ local function SOOAVCH_fake_script() -- farmdummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(SOOAVCH_fake_script)()
-local function IFXRILW_fake_script() -- farmdummy5k.UIButtonEffectScript 
+coroutine.wrap(JNNEXY_fake_script)()
+local function NTKTARW_fake_script() -- farmdummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy5k)
 
 	local Button = script.Parent
@@ -1624,8 +1824,8 @@ local function IFXRILW_fake_script() -- farmdummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(IFXRILW_fake_script)()
-local function TENUTG_fake_script() -- antiafkHatredBR.farmDummy 
+coroutine.wrap(NTKTARW_fake_script)()
+local function LQWITP_fake_script() -- antiafkHatredBR.farmDummy 
 	local script = Instance.new('Script', antiafkHatredBR)
 
 	
@@ -1638,8 +1838,8 @@ local function TENUTG_fake_script() -- antiafkHatredBR.farmDummy
 		
 	end)
 end
-coroutine.wrap(TENUTG_fake_script)()
-local function KMDE_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
+coroutine.wrap(LQWITP_fake_script)()
+local function NRBINKV_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', antiafkHatredBR)
 
 	local Button = script.Parent
@@ -1708,8 +1908,8 @@ local function KMDE_fake_script() -- antiafkHatredBR.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(KMDE_fake_script)()
-local function SNNUVL_fake_script() -- ScrollingMain.Script 
+coroutine.wrap(NRBINKV_fake_script)()
+local function ITCG_fake_script() -- ScrollingMain.Script 
 	local script = Instance.new('Script', ScrollingMain)
 
 	local text = script.Parent
@@ -1765,8 +1965,8 @@ local function SNNUVL_fake_script() -- ScrollingMain.Script
 		end
 	end
 end
-coroutine.wrap(SNNUVL_fake_script)()
-local function MLQJO_fake_script() -- UIStroke_8.Script 
+coroutine.wrap(ITCG_fake_script)()
+local function HXOH_fake_script() -- UIStroke_8.Script 
 	local script = Instance.new('Script', UIStroke_8)
 
 	local text = script.Parent
@@ -1822,8 +2022,8 @@ local function MLQJO_fake_script() -- UIStroke_8.Script
 		end
 	end
 end
-coroutine.wrap(MLQJO_fake_script)()
-local function SUIYDV_fake_script() -- ativar.farmDummy 
+coroutine.wrap(HXOH_fake_script)()
+local function QDPF_fake_script() -- ativar.farmDummy 
 	local script = Instance.new('Script', ativar)
 
 	
@@ -1838,8 +2038,8 @@ local function SUIYDV_fake_script() -- ativar.farmDummy
 		
 	end)
 end
-coroutine.wrap(SUIYDV_fake_script)()
-local function QYEXN_fake_script() -- ativar.UIButtonEffectScript 
+coroutine.wrap(QDPF_fake_script)()
+local function UFBY_fake_script() -- ativar.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', ativar)
 
 	local Button = script.Parent
@@ -1908,8 +2108,8 @@ local function QYEXN_fake_script() -- ativar.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(QYEXN_fake_script)()
-local function NFFURG_fake_script() -- gotoDummy5k.UIButtonEffectScript 
+coroutine.wrap(UFBY_fake_script)()
+local function SBXL_fake_script() -- gotoDummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoDummy5k)
 
 	local Button = script.Parent
@@ -1978,8 +2178,8 @@ local function NFFURG_fake_script() -- gotoDummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(NFFURG_fake_script)()
-local function IMVYD_fake_script() -- gotoDummy5k.farmDummy 
+coroutine.wrap(SBXL_fake_script)()
+local function HOKXYG_fake_script() -- gotoDummy5k.farmDummy 
 	local script = Instance.new('Script', gotoDummy5k)
 
 	
@@ -1991,8 +2191,8 @@ local function IMVYD_fake_script() -- gotoDummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(IMVYD_fake_script)()
-local function LNHHAJ_fake_script() -- gotoDummy.UIButtonEffectScript 
+coroutine.wrap(HOKXYG_fake_script)()
+local function KUVKZFU_fake_script() -- gotoDummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoDummy)
 
 	local Button = script.Parent
@@ -2061,8 +2261,8 @@ local function LNHHAJ_fake_script() -- gotoDummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(LNHHAJ_fake_script)()
-local function KITWBGZ_fake_script() -- gotoDummy.farmDummy 
+coroutine.wrap(KUVKZFU_fake_script)()
+local function CKMI_fake_script() -- gotoDummy.farmDummy 
 	local script = Instance.new('Script', gotoDummy)
 
 	
@@ -2074,8 +2274,8 @@ local function KITWBGZ_fake_script() -- gotoDummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(KITWBGZ_fake_script)()
-local function PRXYCT_fake_script() -- gotoBossSpawn.UIButtonEffectScript 
+coroutine.wrap(CKMI_fake_script)()
+local function CDHEAZ_fake_script() -- gotoBossSpawn.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', gotoBossSpawn)
 
 	local Button = script.Parent
@@ -2144,8 +2344,8 @@ local function PRXYCT_fake_script() -- gotoBossSpawn.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(PRXYCT_fake_script)()
-local function BBRZGZU_fake_script() -- gotoBossSpawn.farmDummy 
+coroutine.wrap(CDHEAZ_fake_script)()
+local function KGAP_fake_script() -- gotoBossSpawn.farmDummy 
 	local script = Instance.new('Script', gotoBossSpawn)
 
 	
@@ -2158,8 +2358,8 @@ local function BBRZGZU_fake_script() -- gotoBossSpawn.farmDummy
 	
 	end)
 end
-coroutine.wrap(BBRZGZU_fake_script)()
-local function KKJVP_fake_script() -- farm.RainbowText 
+coroutine.wrap(KGAP_fake_script)()
+local function UYHBEW_fake_script() -- farm.RainbowText 
 	local script = Instance.new('Script', farm)
 
 	local text = script.Parent
@@ -2215,8 +2415,8 @@ local function KKJVP_fake_script() -- farm.RainbowText
 	end
 	end
 end
-coroutine.wrap(KKJVP_fake_script)()
-local function XATH_fake_script() -- main.Script 
+coroutine.wrap(UYHBEW_fake_script)()
+local function MQNI_fake_script() -- main.Script 
 	local script = Instance.new('Script', main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2225,12 +2425,15 @@ local function XATH_fake_script() -- main.Script
 		script.Parent.Parent.Parent.HomeFrame.Visible = true
 		script.Parent.Parent.Parent.TeleportFrame.Visible = false
 		script.Parent.Parent.Parent.FunFrame.Visible = false
-	
+		script.Parent.Parent.functions.UIStroke.Enabled = false
+		script.Parent.Parent.teleport.UIStroke.Enabled = false
+		script.Parent.Parent.main.UIStroke.Enabled = true
+		script.Parent.Parent.fun.UIStroke.Enabled = false
 	
 	end)
 end
-coroutine.wrap(XATH_fake_script)()
-local function ZBWVUQS_fake_script() -- main.UIButtonEffectScript 
+coroutine.wrap(MQNI_fake_script)()
+local function IIQQJ_fake_script() -- main.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', main)
 
 	local Button = script.Parent
@@ -2299,8 +2502,8 @@ local function ZBWVUQS_fake_script() -- main.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ZBWVUQS_fake_script)()
-local function OLJS_fake_script() -- functions.UIButtonEffectScript 
+coroutine.wrap(IIQQJ_fake_script)()
+local function FGPYJZ_fake_script() -- functions.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', functions)
 
 	local Button = script.Parent
@@ -2369,22 +2572,26 @@ local function OLJS_fake_script() -- functions.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(OLJS_fake_script)()
-local function MLGA_fake_script() -- functions.Script 
+coroutine.wrap(FGPYJZ_fake_script)()
+local function GXPEX_fake_script() -- functions.Script 
 	local script = Instance.new('Script', functions)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	script.Parent.Parent.Parent.FunctionsFrame.Visible = true
 		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.functions.UIStroke.Enabled = true
+		script.Parent.Parent.teleport.UIStroke.Enabled = false
+		script.Parent.Parent.main.UIStroke.Enabled = false
+		script.Parent.Parent.fun.UIStroke.Enabled = false
 		script.Parent.Parent.Parent.TeleportFrame.Visible = false	
 		script.Parent.Parent.Parent.FunFrame.Visible = false
 	
 	end)
 	
 end
-coroutine.wrap(MLGA_fake_script)()
-local function RDCG_fake_script() -- teleport.UIButtonEffectScript 
+coroutine.wrap(GXPEX_fake_script)()
+local function BTAJLG_fake_script() -- teleport.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', teleport)
 
 	local Button = script.Parent
@@ -2453,8 +2660,8 @@ local function RDCG_fake_script() -- teleport.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(RDCG_fake_script)()
-local function CIGAGZB_fake_script() -- teleport.Script 
+coroutine.wrap(BTAJLG_fake_script)()
+local function MKEACM_fake_script() -- teleport.Script 
 	local script = Instance.new('Script', teleport)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2464,12 +2671,15 @@ local function CIGAGZB_fake_script() -- teleport.Script
 	script.Parent.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.Parent.TeleportFrame.Visible = true	
 		script.Parent.Parent.Parent.FunFrame.Visible = false
-	
+		script.Parent.Parent.functions.UIStroke.Enabled = false
+		script.Parent.Parent.teleport.UIStroke.Enabled = true
+		script.Parent.Parent.main.UIStroke.Enabled = false
+		script.Parent.Parent.fun.UIStroke.Enabled = false
 	end)
 	
 end
-coroutine.wrap(CIGAGZB_fake_script)()
-local function ZNJEB_fake_script() -- fun.UIButtonEffectScript 
+coroutine.wrap(MKEACM_fake_script)()
+local function IXKDV_fake_script() -- fun.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', fun)
 
 	local Button = script.Parent
@@ -2538,13 +2748,17 @@ local function ZNJEB_fake_script() -- fun.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ZNJEB_fake_script)()
-local function AGFXXS_fake_script() -- fun.Script 
+coroutine.wrap(IXKDV_fake_script)()
+local function RLIJT_fake_script() -- fun.Script 
 	local script = Instance.new('Script', fun)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
-	
+		script.Parent.Parent.functions.UIStroke.Enabled = false
+		script.Parent.Parent.teleport.UIStroke.Enabled = false
+		script.Parent.Parent.main.UIStroke.Enabled = false
+		script.Parent.Parent.fun.UIStroke.Enabled = true
+		
 	script.Parent.Parent.Parent.FunctionsFrame.Visible = false
 	script.Parent.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.Parent.TeleportFrame.Visible = false
@@ -2553,8 +2767,8 @@ local function AGFXXS_fake_script() -- fun.Script
 	end)
 	
 end
-coroutine.wrap(AGFXXS_fake_script)()
-local function YMALSE_fake_script() -- player.UIButtonEffectScript 
+coroutine.wrap(RLIJT_fake_script)()
+local function CRWN_fake_script() -- player.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', player)
 
 	local Button = script.Parent
@@ -2623,8 +2837,8 @@ local function YMALSE_fake_script() -- player.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YMALSE_fake_script)()
-local function UMPIQO_fake_script() -- player.Script 
+coroutine.wrap(CRWN_fake_script)()
+local function XFANZXI_fake_script() -- player.Script 
 	local script = Instance.new('Script', player)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2632,13 +2846,14 @@ local function UMPIQO_fake_script() -- player.Script
 	
 	script.Parent.Parent.Parent.FunctionsFrame.Visible = false
 	script.Parent.Parent.Parent.HomeFrame.Visible = false
-	script.Parent.Parent.Parent.TeleportFrame.Visible = true	
+		script.Parent.Parent.Parent.TeleportFrame.Visible = true	
+		
 	end)
 	
 end
-coroutine.wrap(UMPIQO_fake_script)()
-local function TMWQCC_fake_script() -- UIStroke_12.Script 
-	local script = Instance.new('Script', UIStroke_12)
+coroutine.wrap(XFANZXI_fake_script)()
+local function TEDO_fake_script() -- UIStroke_16.Script 
+	local script = Instance.new('Script', UIStroke_16)
 
 	local text = script.Parent
 	local add = 10
@@ -2693,8 +2908,8 @@ local function TMWQCC_fake_script() -- UIStroke_12.Script
 		end
 	end
 end
-coroutine.wrap(TMWQCC_fake_script)()
-local function EXIGX_fake_script() -- versao.RainbowText 
+coroutine.wrap(TEDO_fake_script)()
+local function ZXMA_fake_script() -- versao.RainbowText 
 	local script = Instance.new('Script', versao)
 
 	local text = script.Parent
@@ -2750,8 +2965,8 @@ local function EXIGX_fake_script() -- versao.RainbowText
 	end
 	end
 end
-coroutine.wrap(EXIGX_fake_script)()
-local function BJMTXE_fake_script() -- rejoin.UIButtonEffectScript 
+coroutine.wrap(ZXMA_fake_script)()
+local function DTPBIO_fake_script() -- rejoin.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', rejoin)
 
 	local Button = script.Parent
@@ -2820,8 +3035,8 @@ local function BJMTXE_fake_script() -- rejoin.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(BJMTXE_fake_script)()
-local function SEIX_fake_script() -- rejoin.Script 
+coroutine.wrap(DTPBIO_fake_script)()
+local function CVRLAT_fake_script() -- rejoin.Script 
 	local script = Instance.new('Script', rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2845,9 +3060,9 @@ local function SEIX_fake_script() -- rejoin.Script
 	end)
 	
 end
-coroutine.wrap(SEIX_fake_script)()
-local function KPIFQM_fake_script() -- UIStroke_14.Script 
-	local script = Instance.new('Script', UIStroke_14)
+coroutine.wrap(CVRLAT_fake_script)()
+local function QYFRX_fake_script() -- UIStroke_18.Script 
+	local script = Instance.new('Script', UIStroke_18)
 
 	local text = script.Parent
 	local add = 10
@@ -2902,8 +3117,8 @@ local function KPIFQM_fake_script() -- UIStroke_14.Script
 		end
 	end
 end
-coroutine.wrap(KPIFQM_fake_script)()
-local function AVIYR_fake_script() -- HomeFrame.SetVariables 
+coroutine.wrap(QYFRX_fake_script)()
+local function HSBGZD_fake_script() -- HomeFrame.SetVariables 
 	local script = Instance.new('LocalScript', HomeFrame)
 
 	local Players = game:GetService("Players")
@@ -2916,9 +3131,9 @@ local function AVIYR_fake_script() -- HomeFrame.SetVariables
 	
 	script.Parent.username.Text = Player.DisplayName.. " (" ..Player.Name.. ")"
 end
-coroutine.wrap(AVIYR_fake_script)()
-local function LQFZO_fake_script() -- UIStroke_15.Script 
-	local script = Instance.new('Script', UIStroke_15)
+coroutine.wrap(HSBGZD_fake_script)()
+local function VBBBJF_fake_script() -- UIStroke_19.Script 
+	local script = Instance.new('Script', UIStroke_19)
 
 	local text = script.Parent
 	local add = 10
@@ -2973,8 +3188,8 @@ local function LQFZO_fake_script() -- UIStroke_15.Script
 		end
 	end
 end
-coroutine.wrap(LQFZO_fake_script)()
-local function RIHT_fake_script() -- ScrollingMain_2.Script 
+coroutine.wrap(VBBBJF_fake_script)()
+local function AGUO_fake_script() -- ScrollingMain_2.Script 
 	local script = Instance.new('Script', ScrollingMain_2)
 
 	local text = script.Parent
@@ -3030,8 +3245,8 @@ local function RIHT_fake_script() -- ScrollingMain_2.Script
 		end
 	end
 end
-coroutine.wrap(RIHT_fake_script)()
-local function AXZWF_fake_script() -- waterfall.UIButtonEffectScript 
+coroutine.wrap(AGUO_fake_script)()
+local function EFUIV_fake_script() -- waterfall.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', waterfall)
 
 	local Button = script.Parent
@@ -3100,8 +3315,8 @@ local function AXZWF_fake_script() -- waterfall.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AXZWF_fake_script)()
-local function FPKS_fake_script() -- waterfall.Script 
+coroutine.wrap(EFUIV_fake_script)()
+local function TBJPXEF_fake_script() -- waterfall.Script 
 	local script = Instance.new('Script', waterfall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3111,8 +3326,8 @@ local function FPKS_fake_script() -- waterfall.Script
 	
 	end)
 end
-coroutine.wrap(FPKS_fake_script)()
-local function IOKSZBD_fake_script() -- teleports.RainbowText 
+coroutine.wrap(TBJPXEF_fake_script)()
+local function RMMYSTL_fake_script() -- teleports.RainbowText 
 	local script = Instance.new('Script', teleports)
 
 	local text = script.Parent
@@ -3168,8 +3383,8 @@ local function IOKSZBD_fake_script() -- teleports.RainbowText
 	end
 	end
 end
-coroutine.wrap(IOKSZBD_fake_script)()
-local function KHWMB_fake_script() -- spawnTp.UIButtonEffectScript 
+coroutine.wrap(RMMYSTL_fake_script)()
+local function OWZJG_fake_script() -- spawnTp.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', spawnTp)
 
 	local Button = script.Parent
@@ -3238,8 +3453,8 @@ local function KHWMB_fake_script() -- spawnTp.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(KHWMB_fake_script)()
-local function GEYEXB_fake_script() -- spawnTp.Script 
+coroutine.wrap(OWZJG_fake_script)()
+local function EEFHLT_fake_script() -- spawnTp.Script 
 	local script = Instance.new('Script', spawnTp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3249,8 +3464,8 @@ local function GEYEXB_fake_script() -- spawnTp.Script
 	
 	end)
 end
-coroutine.wrap(GEYEXB_fake_script)()
-local function UWGTMB_fake_script() -- threevilage.UIButtonEffectScript 
+coroutine.wrap(EEFHLT_fake_script)()
+local function HQHLNAK_fake_script() -- threevilage.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', threevilage)
 
 	local Button = script.Parent
@@ -3319,8 +3534,8 @@ local function UWGTMB_fake_script() -- threevilage.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(UWGTMB_fake_script)()
-local function PEZZXDO_fake_script() -- threevilage.Script 
+coroutine.wrap(HQHLNAK_fake_script)()
+local function DUROTO_fake_script() -- threevilage.Script 
 	local script = Instance.new('Script', threevilage)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3330,8 +3545,8 @@ local function PEZZXDO_fake_script() -- threevilage.Script
 	
 	end)
 end
-coroutine.wrap(PEZZXDO_fake_script)()
-local function VMLBH_fake_script() -- desert.UIButtonEffectScript 
+coroutine.wrap(DUROTO_fake_script)()
+local function VBNUY_fake_script() -- desert.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', desert)
 
 	local Button = script.Parent
@@ -3400,8 +3615,8 @@ local function VMLBH_fake_script() -- desert.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(VMLBH_fake_script)()
-local function ZCML_fake_script() -- desert.Script 
+coroutine.wrap(VBNUY_fake_script)()
+local function CDJXUH_fake_script() -- desert.Script 
 	local script = Instance.new('Script', desert)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3411,8 +3626,8 @@ local function ZCML_fake_script() -- desert.Script
 	
 	end)
 end
-coroutine.wrap(ZCML_fake_script)()
-local function AFAMLD_fake_script() -- lavaBoss.UIButtonEffectScript 
+coroutine.wrap(CDJXUH_fake_script)()
+local function TILWWE_fake_script() -- lavaBoss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', lavaBoss)
 
 	local Button = script.Parent
@@ -3481,8 +3696,8 @@ local function AFAMLD_fake_script() -- lavaBoss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AFAMLD_fake_script)()
-local function FXUS_fake_script() -- lavaBoss.Script 
+coroutine.wrap(TILWWE_fake_script)()
+local function ZRUG_fake_script() -- lavaBoss.Script 
 	local script = Instance.new('Script', lavaBoss)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3492,8 +3707,8 @@ local function FXUS_fake_script() -- lavaBoss.Script
 	
 	end)
 end
-coroutine.wrap(FXUS_fake_script)()
-local function XHCHGT_fake_script() -- mountain.UIButtonEffectScript 
+coroutine.wrap(ZRUG_fake_script)()
+local function EIUXWR_fake_script() -- mountain.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', mountain)
 
 	local Button = script.Parent
@@ -3562,8 +3777,8 @@ local function XHCHGT_fake_script() -- mountain.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(XHCHGT_fake_script)()
-local function AKFUY_fake_script() -- mountain.Script 
+coroutine.wrap(EIUXWR_fake_script)()
+local function FTHHNZQ_fake_script() -- mountain.Script 
 	local script = Instance.new('Script', mountain)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3573,8 +3788,8 @@ local function AKFUY_fake_script() -- mountain.Script
 	
 	end)
 end
-coroutine.wrap(AKFUY_fake_script)()
-local function YZFEGZ_fake_script() -- lavasecret.UIButtonEffectScript 
+coroutine.wrap(FTHHNZQ_fake_script)()
+local function CNQOM_fake_script() -- lavasecret.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', lavasecret)
 
 	local Button = script.Parent
@@ -3643,8 +3858,8 @@ local function YZFEGZ_fake_script() -- lavasecret.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YZFEGZ_fake_script)()
-local function ZODZD_fake_script() -- lavasecret.Script 
+coroutine.wrap(CNQOM_fake_script)()
+local function OZGKMEC_fake_script() -- lavasecret.Script 
 	local script = Instance.new('Script', lavasecret)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3654,8 +3869,8 @@ local function ZODZD_fake_script() -- lavasecret.Script
 	
 	end)
 end
-coroutine.wrap(ZODZD_fake_script)()
-local function DGLOAHE_fake_script() -- barn.UIButtonEffectScript 
+coroutine.wrap(OZGKMEC_fake_script)()
+local function CGBUV_fake_script() -- barn.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', barn)
 
 	local Button = script.Parent
@@ -3724,8 +3939,8 @@ local function DGLOAHE_fake_script() -- barn.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(DGLOAHE_fake_script)()
-local function CIXJFDW_fake_script() -- barn.Script 
+coroutine.wrap(CGBUV_fake_script)()
+local function EZVJE_fake_script() -- barn.Script 
 	local script = Instance.new('Script', barn)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3735,8 +3950,8 @@ local function CIXJFDW_fake_script() -- barn.Script
 	
 	end)
 end
-coroutine.wrap(CIXJFDW_fake_script)()
-local function CDTTQL_fake_script() -- undermountain.UIButtonEffectScript 
+coroutine.wrap(EZVJE_fake_script)()
+local function IIZUI_fake_script() -- undermountain.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', undermountain)
 
 	local Button = script.Parent
@@ -3805,8 +4020,8 @@ local function CDTTQL_fake_script() -- undermountain.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(CDTTQL_fake_script)()
-local function LQSYFEA_fake_script() -- undermountain.Script 
+coroutine.wrap(IIZUI_fake_script)()
+local function VIEKIPK_fake_script() -- undermountain.Script 
 	local script = Instance.new('Script', undermountain)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3816,8 +4031,8 @@ local function LQSYFEA_fake_script() -- undermountain.Script
 	
 	end)
 end
-coroutine.wrap(LQSYFEA_fake_script)()
-local function HVHYMJ_fake_script() -- secureZone.UIButtonEffectScript 
+coroutine.wrap(VIEKIPK_fake_script)()
+local function IZEDZZM_fake_script() -- secureZone.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', secureZone)
 
 	local Button = script.Parent
@@ -3886,8 +4101,8 @@ local function HVHYMJ_fake_script() -- secureZone.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(HVHYMJ_fake_script)()
-local function CQPTTFL_fake_script() -- secureZone.Script 
+coroutine.wrap(IZEDZZM_fake_script)()
+local function DTETF_fake_script() -- secureZone.Script 
 	local script = Instance.new('Script', secureZone)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3897,8 +4112,8 @@ local function CQPTTFL_fake_script() -- secureZone.Script
 	
 	end)
 end
-coroutine.wrap(CQPTTFL_fake_script)()
-local function NFGDIHR_fake_script() -- loopFlingAll.farmDummy 
+coroutine.wrap(DTETF_fake_script)()
+local function IUUHW_fake_script() -- loopFlingAll.farmDummy 
 	local script = Instance.new('Script', loopFlingAll)
 
 	
@@ -3910,8 +4125,8 @@ local function NFGDIHR_fake_script() -- loopFlingAll.farmDummy
 	
 	end)
 end
-coroutine.wrap(NFGDIHR_fake_script)()
-local function FTHDQNS_fake_script() -- loopFlingAll.UIButtonEffectScript 
+coroutine.wrap(IUUHW_fake_script)()
+local function AYSD_fake_script() -- loopFlingAll.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', loopFlingAll)
 
 	local Button = script.Parent
@@ -3980,8 +4195,8 @@ local function FTHDQNS_fake_script() -- loopFlingAll.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(FTHDQNS_fake_script)()
-local function MABV_fake_script() -- fun_2.RainbowText 
+coroutine.wrap(AYSD_fake_script)()
+local function WEUO_fake_script() -- fun_2.RainbowText 
 	local script = Instance.new('Script', fun_2)
 
 	local text = script.Parent
@@ -4037,8 +4252,8 @@ local function MABV_fake_script() -- fun_2.RainbowText
 	end
 	end
 end
-coroutine.wrap(MABV_fake_script)()
-local function SWTRXL_fake_script() -- pendulum.farmDummy 
+coroutine.wrap(WEUO_fake_script)()
+local function ZARD_fake_script() -- pendulum.farmDummy 
 	local script = Instance.new('Script', pendulum)
 
 	
@@ -4049,8 +4264,8 @@ local function SWTRXL_fake_script() -- pendulum.farmDummy
 	
 	end)
 end
-coroutine.wrap(SWTRXL_fake_script)()
-local function HDFSKYY_fake_script() -- pendulum.UIButtonEffectScript 
+coroutine.wrap(ZARD_fake_script)()
+local function SLECVI_fake_script() -- pendulum.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', pendulum)
 
 	local Button = script.Parent
@@ -4119,20 +4334,44 @@ local function HDFSKYY_fake_script() -- pendulum.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(HDFSKYY_fake_script)()
-local function BKKPAUR_fake_script() -- tryKickAll.farmDummy 
+coroutine.wrap(SLECVI_fake_script)()
+local function FORCUWX_fake_script() -- tryKickAll.farmDummy 
 	local script = Instance.new('Script', tryKickAll)
 
 	
 	local p = script.Parent
 	
 	script.Parent.MouseButton1Click:Connect(function()
-	
-	
+		
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: Tried to kick all! Wait...")
+		wait(1)
+		print(" [PopCat Hub]: ERROR! ABORTED!")
+		wait(1)
 	end)
 end
-coroutine.wrap(BKKPAUR_fake_script)()
-local function CBMBMKK_fake_script() -- tryKickAll.UIButtonEffectScript 
+coroutine.wrap(FORCUWX_fake_script)()
+local function XLAQYL_fake_script() -- tryKickAll.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', tryKickAll)
 
 	local Button = script.Parent
@@ -4201,9 +4440,9 @@ local function CBMBMKK_fake_script() -- tryKickAll.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(CBMBMKK_fake_script)()
-local function RXJILDS_fake_script() -- UIStroke_29.Script 
-	local script = Instance.new('Script', UIStroke_29)
+coroutine.wrap(XLAQYL_fake_script)()
+local function DCFZV_fake_script() -- UIStroke_33.Script 
+	local script = Instance.new('Script', UIStroke_33)
 
 	local text = script.Parent
 	local add = 10
@@ -4258,4 +4497,352 @@ local function RXJILDS_fake_script() -- UIStroke_29.Script
 		end
 	end
 end
-coroutine.wrap(RXJILDS_fake_script)()
+coroutine.wrap(DCFZV_fake_script)()
+local function FVGVZJ_fake_script() -- UIStroke_34.Script 
+	local script = Instance.new('Script', UIStroke_34)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.Color = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.Color = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(FVGVZJ_fake_script)()
+local function IGTNFT_fake_script() -- ativar_2.farmDummy 
+	local script = Instance.new('Script', ativar_2)
+
+	
+	local p = script.Parent
+	local text = script.Parent.Parent.Text
+	script.Parent.MouseButton1Click:Connect(function()
+		local expText = game:GetService("Players").DEMONY_AMON.PlayerGui.LevelBar.ExpBarText
+		expText.Text = script.Parent.Text
+	
+	
+		
+	end)
+end
+coroutine.wrap(IGTNFT_fake_script)()
+local function NIAJI_fake_script() -- ativar_2.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', ativar_2)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(NIAJI_fake_script)()
+local function IJBXN_fake_script() -- customexpbar.RainbowText 
+	local script = Instance.new('Script', customexpbar)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(IJBXN_fake_script)()
+local function WLBUCD_fake_script() -- rainbow.farmDummy 
+	local script = Instance.new('Script', rainbow)
+
+	
+	local text = game:GetService("Players").DEMONY_AMON.PlayerGui.LevelBar.ExpBarText
+	local p = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		if p.Text == "Rainbow Text [OFF]"  then
+			p.TextColor3 = Color3.new(0, 1, 0.14902)
+			p.Text = "Rainbow Text [ON]"
+			
+	
+	
+	
+		else
+			p.Text = "Rainbow Text [OFF]"
+			p.TextColor3 = Color3.new(1, 1, 1)
+			
+			local add = 10
+			wait(1)
+			local k = 1
+			while k <= 255 do
+				text.TextColor3 = Color3.new(k/255,0/255,0/255)
+				k = k + add
+				wait()
+			end
+			while true do
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(255/255,k/255,0/255)
+					k = k + add
+					wait()
+				end
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+					k = k + add
+					wait()
+				end
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(0/255,255/255,k/255)
+					k = k + add
+					wait()
+				end
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+					k = k + add
+					wait()
+				end
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(k/255,0/255,255/255)
+					k = k + add
+					wait()
+				end
+				k = 1
+				while k <= 255 do
+					text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+					k = k + add
+					wait()
+				end
+				while k <= 255 do
+					text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+					k = k + add
+					wait()
+				end
+			end
+	
+	
+	
+		end
+		
+	end)
+end
+coroutine.wrap(WLBUCD_fake_script)()
+local function OZEKWY_fake_script() -- rainbow.UIButtonEffectScript 
+	local script = Instance.new('LocalScript', rainbow)
+
+	local Button = script.Parent
+	Button.AutoButtonColor = false
+	
+	--Values
+	local Logs = false
+	local ScaleTextSize = 7
+	local TweenTime = 0.24
+	local Style = Enum.EasingStyle.Quad
+	local EnterDarkDegree = 20        / 255
+	local ClickDarkDegree = -50        / 255
+	
+	--Locals
+	local Default = script.Parent.BackgroundColor3 
+	local Tween = game:GetService("TweenService")
+	local Entered
+	local NewColor
+	
+	--Mouse Enter
+	Button.MouseEnter:Connect(function()
+		Entered = true
+		Tween:Create(Button,TweenInfo.new(TweenTime,Style,Enum.EasingDirection.Out),{
+			
+			BackgroundColor3 = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree),
+		}):Play()
+		if Logs then
+			print('Enter '..tostring(Color3.fromRGB(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)))
+		end
+	end)
+	
+	Button.MouseLeave:Connect(function()
+		Entered = false
+		
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+	
+			BackgroundColor3 = Default,
+	
+		}):Play()
+	end)
+	
+	Button.MouseButton1Down:Connect(function()
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.8,Style,Enum.EasingDirection.Out),{
+	
+			BackgroundColor3 = Color3.new(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree),
+		}):Play()
+		if Logs then
+			print('MouseButton1Up '..tostring(Color3.fromRGB(Default.R-ClickDarkDegree,Default.G-ClickDarkDegree,Default.B-ClickDarkDegree)))
+		end
+	end)
+	
+	Button.MouseButton1Up:Connect(function()
+		if Entered == false then
+			NewColor = Default
+		elseif Entered == true then
+			NewColor = Color3.new(Default.R-EnterDarkDegree,Default.G-EnterDarkDegree,Default.B-EnterDarkDegree)
+		end
+		Tween:Create(Button,TweenInfo.new(TweenTime/1.2,Style,Enum.EasingDirection.In),{
+			
+			BackgroundColor3 = NewColor,
+	
+		}):Play()
+	end)
+	
+	if Logs then
+		print("UI BUTTON EFFECT LOADED!")
+	end
+end
+coroutine.wrap(OZEKWY_fake_script)()
