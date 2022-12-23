@@ -137,7 +137,14 @@ local function EGHFF_fake_script() -- PopCatLoader.loader
 	NewBlur.Size = 0
 	wait(0.03)
 	NewBlur:Destroy()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/PopCat", true))()
+	local UserInputService = game:GetService("UserInputService")
+
+if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/PopCatMobile.lua", true))()
+elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
+	print("Computer device")
+end
+
 	print("PopCatHub Loaded")
 	script.Parent:Destroy()
 end
