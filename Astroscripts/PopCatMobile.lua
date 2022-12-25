@@ -78,6 +78,7 @@ local UICorner_24 = Instance.new("UICorner")
 PopCatHub.Name = "PopCat Hub"
 PopCatHub.Parent = (game:GetService("CoreGui") or gethui())
 PopCatHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+PopCatHub.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = PopCatHub
