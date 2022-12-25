@@ -17,7 +17,6 @@ img.Image = "rbxassetid://11869068856"
 UICorner.Parent = img
 local function EGHFF_fake_script() -- PopCatLoader.loader 
 	local script = Instance.new('Script', PopCatLoader)
-
 	local NewBlur = Instance.new('BlurEffect', game.Lighting)
 	NewBlur.Size = 0
 	wait(0.5)
@@ -138,14 +137,12 @@ local function EGHFF_fake_script() -- PopCatLoader.loader
 	wait(0.03)
 	NewBlur:Destroy()
 	local UserInputService = game:GetService("UserInputService")
-
 if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/PopCatMobile.lua", true))()
 elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
-	print("Computer device")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernalSpectro/lol/main/Astroscripts/AnimalSimulatorPC.lua", true))()
 end
-
-	print("PopCatHub Loaded")
-	script.Parent:Destroy()
+print("PopCatHub Loaded")
+script.Parent:Destroy()
 end
 coroutine.wrap(EGHFF_fake_script)()
