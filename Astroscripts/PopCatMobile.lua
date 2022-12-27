@@ -1,5 +1,5 @@
--- PCH
--- Version: 1.4 For mobile
+-- PopCatHub src
+-- Version: 1.4 For Mobile
 
 -- Instances:
 
@@ -322,7 +322,6 @@ FarmFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 FarmFrame.BackgroundTransparency = 1.000
 FarmFrame.Position = UDim2.new(-0.00835073087, 0, 0, 0)
 FarmFrame.Size = UDim2.new(0, 373, 0, 225)
-FarmFrame.Visible = false
 
 UICorner_12.Parent = FarmFrame
 
@@ -333,7 +332,6 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(-0.0166319981, 0, -0.0203389488, 0)
 ScrollingFrame.Size = UDim2.new(0, 379, 0, 231)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 218.999985)
 
 farm_2.Name = "farm"
 farm_2.Parent = ScrollingFrame
@@ -465,6 +463,7 @@ TeleportFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 TeleportFrame.BackgroundTransparency = 1.000
 TeleportFrame.Position = UDim2.new(-0.0225119069, 0, -0.0232240856, 0)
 TeleportFrame.Size = UDim2.new(0, 380, 0, 232)
+TeleportFrame.Visible = false
 
 ScrollingMain.Name = "ScrollingMain"
 ScrollingMain.Parent = TeleportFrame
@@ -706,7 +705,7 @@ UICorner_31.Parent = LogoMinimized
 
 -- Scripts:
 
-local function QXYIDO_fake_script() -- CloseWindow.LocalScript 
+local function SVMSKOS_fake_script() -- CloseWindow.LocalScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -714,8 +713,8 @@ local function QXYIDO_fake_script() -- CloseWindow.LocalScript
 	end)
 	
 end
-coroutine.wrap(QXYIDO_fake_script)()
-local function JABAJVT_fake_script() -- CloseWindow.UIButtonEffectScript 
+coroutine.wrap(SVMSKOS_fake_script)()
+local function CVQT_fake_script() -- CloseWindow.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', CloseWindow)
 
 	local Button = script.Parent
@@ -784,8 +783,8 @@ local function JABAJVT_fake_script() -- CloseWindow.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(JABAJVT_fake_script)()
-local function VVYCNR_fake_script() -- UIStroke.Script 
+coroutine.wrap(CVQT_fake_script)()
+local function VLMWHM_fake_script() -- UIStroke.Script 
 	local script = Instance.new('Script', UIStroke)
 
 	local text = script.Parent
@@ -841,8 +840,8 @@ local function VVYCNR_fake_script() -- UIStroke.Script
 		end
 	end
 end
-coroutine.wrap(VVYCNR_fake_script)()
-local function GEWBGC_fake_script() -- versao.RainbowText 
+coroutine.wrap(VLMWHM_fake_script)()
+local function BCLC_fake_script() -- versao.RainbowText 
 	local script = Instance.new('Script', versao)
 
 	local text = script.Parent
@@ -898,8 +897,8 @@ local function GEWBGC_fake_script() -- versao.RainbowText
 	end
 	end
 end
-coroutine.wrap(GEWBGC_fake_script)()
-local function HZZREW_fake_script() -- rejoin.UIButtonEffectScript 
+coroutine.wrap(BCLC_fake_script)()
+local function QKHWYBW_fake_script() -- rejoin.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', rejoin)
 
 	local Button = script.Parent
@@ -968,8 +967,8 @@ local function HZZREW_fake_script() -- rejoin.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(HZZREW_fake_script)()
-local function IOQHF_fake_script() -- rejoin.Script 
+coroutine.wrap(QKHWYBW_fake_script)()
+local function ECWBLZH_fake_script() -- rejoin.Script 
 	local script = Instance.new('Script', rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -993,8 +992,8 @@ local function IOQHF_fake_script() -- rejoin.Script
 	end)
 	
 end
-coroutine.wrap(IOQHF_fake_script)()
-local function JCTPQA_fake_script() -- UIStroke_3.Script 
+coroutine.wrap(ECWBLZH_fake_script)()
+local function XWLWFTI_fake_script() -- UIStroke_3.Script 
 	local script = Instance.new('Script', UIStroke_3)
 
 	local text = script.Parent
@@ -1050,8 +1049,8 @@ local function JCTPQA_fake_script() -- UIStroke_3.Script
 		end
 	end
 end
-coroutine.wrap(JCTPQA_fake_script)()
-local function LNQOBV_fake_script() -- HomeFrame.SetVariables 
+coroutine.wrap(XWLWFTI_fake_script)()
+local function KZPTIWV_fake_script() -- HomeFrame.SetVariables 
 	local script = Instance.new('LocalScript', HomeFrame)
 
 	local Players = game:GetService("Players")
@@ -1064,8 +1063,8 @@ local function LNQOBV_fake_script() -- HomeFrame.SetVariables
 	
 	script.Parent.username.Text = Player.DisplayName.. " (" ..Player.Name.. ")"
 end
-coroutine.wrap(LNQOBV_fake_script)()
-local function NRJZU_fake_script() -- discord.RainbowText 
+coroutine.wrap(KZPTIWV_fake_script)()
+local function GUNQJX_fake_script() -- discord.RainbowText 
 	local script = Instance.new('Script', discord)
 
 	local text = script.Parent
@@ -1121,8 +1120,8 @@ local function NRJZU_fake_script() -- discord.RainbowText
 	end
 	end
 end
-coroutine.wrap(NRJZU_fake_script)()
-local function SFWYFP_fake_script() -- versao_2.RainbowText 
+coroutine.wrap(GUNQJX_fake_script)()
+local function AJOBD_fake_script() -- versao_2.RainbowText 
 	local script = Instance.new('Script', versao_2)
 
 	local text = script.Parent
@@ -1178,8 +1177,8 @@ local function SFWYFP_fake_script() -- versao_2.RainbowText
 	end
 	end
 end
-coroutine.wrap(SFWYFP_fake_script)()
-local function WRAFHM_fake_script() -- home.UIButtonEffectScript 
+coroutine.wrap(AJOBD_fake_script)()
+local function VOJW_fake_script() -- home.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', home)
 
 	local Button = script.Parent
@@ -1248,15 +1247,14 @@ local function WRAFHM_fake_script() -- home.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(WRAFHM_fake_script)()
-local function DSATYIE_fake_script() -- home.Script 
+coroutine.wrap(VOJW_fake_script)()
+local function VMPB_fake_script() -- home.Script 
 	local script = Instance.new('Script', home)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	
 		--RadioButton Settings
-		script.Parent.Parent.Frame:TweenPosition(UDim2.new(-0.025, 0,0.057, 0), 'Out', 'Quart', 0.4)
 		
 		--Tabs
 		script.Parent.Parent.Parent.HomeFrame.Visible = true
@@ -1267,8 +1265,8 @@ local function DSATYIE_fake_script() -- home.Script
 	end)
 	
 end
-coroutine.wrap(DSATYIE_fake_script)()
-local function YTLLFXO_fake_script() -- farm.UIButtonEffectScript 
+coroutine.wrap(VMPB_fake_script)()
+local function CQZE_fake_script() -- farm.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local Button = script.Parent
@@ -1337,15 +1335,14 @@ local function YTLLFXO_fake_script() -- farm.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YTLLFXO_fake_script)()
-local function LHNS_fake_script() -- farm.Script 
+coroutine.wrap(CQZE_fake_script)()
+local function IDUX_fake_script() -- farm.Script 
 	local script = Instance.new('Script', farm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	
 		--RadioButton Settings
-		script.Parent.Parent.Frame:TweenPosition(UDim2.new(-0.025, 0,0.2, 0), 'Out', 'Quart', 0.4)
 		
 		--Tabs
 		script.Parent.Parent.Parent.HomeFrame.Visible = false
@@ -1355,8 +1352,8 @@ local function LHNS_fake_script() -- farm.Script
 	end)
 	
 end
-coroutine.wrap(LHNS_fake_script)()
-local function YEHP_fake_script() -- teleport.UIButtonEffectScript 
+coroutine.wrap(IDUX_fake_script)()
+local function EIDFMFU_fake_script() -- teleport.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', teleport)
 
 	local Button = script.Parent
@@ -1425,15 +1422,14 @@ local function YEHP_fake_script() -- teleport.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(YEHP_fake_script)()
-local function LKNCYCH_fake_script() -- teleport.Script 
+coroutine.wrap(EIDFMFU_fake_script)()
+local function YRBV_fake_script() -- teleport.Script 
 	local script = Instance.new('Script', teleport)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
 	
 		--RadioButton Settings
-		script.Parent.Parent.Frame:TweenPosition(UDim2.new(-0.025, 0,0.343, 0), 'Out', 'Quart', 0.4)
 		
 		
 		--Tabs
@@ -1445,8 +1441,8 @@ local function LKNCYCH_fake_script() -- teleport.Script
 	end)
 	
 end
-coroutine.wrap(LKNCYCH_fake_script)()
-local function HBMUTJ_fake_script() -- farm_2.RainbowText 
+coroutine.wrap(YRBV_fake_script)()
+local function FHRLX_fake_script() -- farm_2.RainbowText 
 	local script = Instance.new('Script', farm_2)
 
 	local text = script.Parent
@@ -1502,8 +1498,8 @@ local function HBMUTJ_fake_script() -- farm_2.RainbowText
 	end
 	end
 end
-coroutine.wrap(HBMUTJ_fake_script)()
-local function KTMCHZ_fake_script() -- farmcoins.farmCoins 
+coroutine.wrap(FHRLX_fake_script)()
+local function MEAQ_fake_script() -- farmcoins.farmCoins 
 	local script = Instance.new('Script', farmcoins)
 
 	
@@ -1522,8 +1518,8 @@ local function KTMCHZ_fake_script() -- farmcoins.farmCoins
 		
 	end)
 end
-coroutine.wrap(KTMCHZ_fake_script)()
-local function NAUGLL_fake_script() -- farmcoins.UIButtonEffectScript 
+coroutine.wrap(MEAQ_fake_script)()
+local function NMDW_fake_script() -- farmcoins.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmcoins)
 
 	local Button = script.Parent
@@ -1592,8 +1588,65 @@ local function NAUGLL_fake_script() -- farmcoins.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(NAUGLL_fake_script)()
-local function MHQY_fake_script() -- ScrollingFrame.Script 
+coroutine.wrap(NMDW_fake_script)()
+local function AXFDJM_fake_script() -- UIStroke_7.Script 
+	local script = Instance.new('Script', UIStroke_7)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.Color = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.Color = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.Color = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(AXFDJM_fake_script)()
+local function GALGM_fake_script() -- ScrollingFrame.Script 
 	local script = Instance.new('Script', ScrollingFrame)
 
 	local text = script.Parent
@@ -1649,8 +1702,8 @@ local function MHQY_fake_script() -- ScrollingFrame.Script
 		end
 	end
 end
-coroutine.wrap(MHQY_fake_script)()
-local function HNTVDPQ_fake_script() -- farmdummy.farmDummy 
+coroutine.wrap(GALGM_fake_script)()
+local function TAZMLV_fake_script() -- farmdummy.farmDummy 
 	local script = Instance.new('Script', farmdummy)
 
 	
@@ -1681,8 +1734,8 @@ local function HNTVDPQ_fake_script() -- farmdummy.farmDummy
 		
 	end)
 end
-coroutine.wrap(HNTVDPQ_fake_script)()
-local function CPLXR_fake_script() -- farmdummy.UIButtonEffectScript 
+coroutine.wrap(TAZMLV_fake_script)()
+local function QBPLC_fake_script() -- farmdummy.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy)
 
 	local Button = script.Parent
@@ -1751,8 +1804,8 @@ local function CPLXR_fake_script() -- farmdummy.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(CPLXR_fake_script)()
-local function KOEEQJ_fake_script() -- farmdummy5k.farmDummy 
+coroutine.wrap(QBPLC_fake_script)()
+local function AELE_fake_script() -- farmdummy5k.farmDummy 
 	local script = Instance.new('Script', farmdummy5k)
 
 	
@@ -1785,8 +1838,8 @@ local function KOEEQJ_fake_script() -- farmdummy5k.farmDummy
 		
 	end)
 end
-coroutine.wrap(KOEEQJ_fake_script)()
-local function AYRX_fake_script() -- farmdummy5k.UIButtonEffectScript 
+coroutine.wrap(AELE_fake_script)()
+local function JRLZTQV_fake_script() -- farmdummy5k.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmdummy5k)
 
 	local Button = script.Parent
@@ -1855,8 +1908,8 @@ local function AYRX_fake_script() -- farmdummy5k.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AYRX_fake_script)()
-local function OMROG_fake_script() -- farmboss.farmDummy 
+coroutine.wrap(JRLZTQV_fake_script)()
+local function CCTVLMH_fake_script() -- farmboss.farmDummy 
 	local script = Instance.new('Script', farmboss)
 
 	
@@ -1908,8 +1961,8 @@ local function OMROG_fake_script() -- farmboss.farmDummy
 		
 	end)
 end
-coroutine.wrap(OMROG_fake_script)()
-local function ALLEPPO_fake_script() -- farmboss.UIButtonEffectScript 
+coroutine.wrap(CCTVLMH_fake_script)()
+local function DAXZNZP_fake_script() -- farmboss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', farmboss)
 
 	local Button = script.Parent
@@ -1978,8 +2031,8 @@ local function ALLEPPO_fake_script() -- farmboss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ALLEPPO_fake_script)()
-local function EYAC_fake_script() -- UIStroke_11.Script 
+coroutine.wrap(DAXZNZP_fake_script)()
+local function UMWZ_fake_script() -- UIStroke_11.Script 
 	local script = Instance.new('Script', UIStroke_11)
 
 	local text = script.Parent
@@ -2035,8 +2088,8 @@ local function EYAC_fake_script() -- UIStroke_11.Script
 		end
 	end
 end
-coroutine.wrap(EYAC_fake_script)()
-local function OTIO_fake_script() -- ativar.farmDummy 
+coroutine.wrap(UMWZ_fake_script)()
+local function JXNFZRD_fake_script() -- ativar.farmDummy 
 	local script = Instance.new('Script', ativar)
 
 	
@@ -2051,8 +2104,8 @@ local function OTIO_fake_script() -- ativar.farmDummy
 		
 	end)
 end
-coroutine.wrap(OTIO_fake_script)()
-local function ZUQA_fake_script() -- ativar.UIButtonEffectScript 
+coroutine.wrap(JXNFZRD_fake_script)()
+local function KUGKYX_fake_script() -- ativar.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', ativar)
 
 	local Button = script.Parent
@@ -2121,8 +2174,8 @@ local function ZUQA_fake_script() -- ativar.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(ZUQA_fake_script)()
-local function CMDHYJ_fake_script() -- antiafkHatredBR.farmDummy 
+coroutine.wrap(KUGKYX_fake_script)()
+local function OZLTSWX_fake_script() -- antiafkHatredBR.farmDummy 
 	local script = Instance.new('Script', antiafkHatredBR)
 
 	
@@ -2135,8 +2188,8 @@ local function CMDHYJ_fake_script() -- antiafkHatredBR.farmDummy
 		
 	end)
 end
-coroutine.wrap(CMDHYJ_fake_script)()
-local function WGNUSB_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
+coroutine.wrap(OZLTSWX_fake_script)()
+local function BABT_fake_script() -- antiafkHatredBR.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', antiafkHatredBR)
 
 	local Button = script.Parent
@@ -2205,8 +2258,8 @@ local function WGNUSB_fake_script() -- antiafkHatredBR.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(WGNUSB_fake_script)()
-local function HGLND_fake_script() -- ScrollingMain.Script 
+coroutine.wrap(BABT_fake_script)()
+local function QFRXD_fake_script() -- ScrollingMain.Script 
 	local script = Instance.new('Script', ScrollingMain)
 
 	local text = script.Parent
@@ -2262,8 +2315,8 @@ local function HGLND_fake_script() -- ScrollingMain.Script
 		end
 	end
 end
-coroutine.wrap(HGLND_fake_script)()
-local function KSVCV_fake_script() -- waterfall.UIButtonEffectScript 
+coroutine.wrap(QFRXD_fake_script)()
+local function VIVEZH_fake_script() -- waterfall.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', waterfall)
 
 	local Button = script.Parent
@@ -2332,8 +2385,8 @@ local function KSVCV_fake_script() -- waterfall.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(KSVCV_fake_script)()
-local function DALM_fake_script() -- waterfall.Script 
+coroutine.wrap(VIVEZH_fake_script)()
+local function PVBTZRN_fake_script() -- waterfall.Script 
 	local script = Instance.new('Script', waterfall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2343,8 +2396,8 @@ local function DALM_fake_script() -- waterfall.Script
 	
 	end)
 end
-coroutine.wrap(DALM_fake_script)()
-local function SOJO_fake_script() -- teleports.RainbowText 
+coroutine.wrap(PVBTZRN_fake_script)()
+local function MJWCYMZ_fake_script() -- teleports.RainbowText 
 	local script = Instance.new('Script', teleports)
 
 	local text = script.Parent
@@ -2400,8 +2453,8 @@ local function SOJO_fake_script() -- teleports.RainbowText
 	end
 	end
 end
-coroutine.wrap(SOJO_fake_script)()
-local function THGED_fake_script() -- spawnTp.UIButtonEffectScript 
+coroutine.wrap(MJWCYMZ_fake_script)()
+local function MFDQDF_fake_script() -- spawnTp.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', spawnTp)
 
 	local Button = script.Parent
@@ -2470,8 +2523,8 @@ local function THGED_fake_script() -- spawnTp.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(THGED_fake_script)()
-local function FAMLNW_fake_script() -- spawnTp.Script 
+coroutine.wrap(MFDQDF_fake_script)()
+local function YPHPF_fake_script() -- spawnTp.Script 
 	local script = Instance.new('Script', spawnTp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2481,8 +2534,8 @@ local function FAMLNW_fake_script() -- spawnTp.Script
 	
 	end)
 end
-coroutine.wrap(FAMLNW_fake_script)()
-local function UWOPG_fake_script() -- threevilage.UIButtonEffectScript 
+coroutine.wrap(YPHPF_fake_script)()
+local function XCNXUY_fake_script() -- threevilage.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', threevilage)
 
 	local Button = script.Parent
@@ -2551,8 +2604,8 @@ local function UWOPG_fake_script() -- threevilage.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(UWOPG_fake_script)()
-local function GJBW_fake_script() -- threevilage.Script 
+coroutine.wrap(XCNXUY_fake_script)()
+local function ZLRNCH_fake_script() -- threevilage.Script 
 	local script = Instance.new('Script', threevilage)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2562,8 +2615,8 @@ local function GJBW_fake_script() -- threevilage.Script
 	
 	end)
 end
-coroutine.wrap(GJBW_fake_script)()
-local function OTTYHJ_fake_script() -- desert.UIButtonEffectScript 
+coroutine.wrap(ZLRNCH_fake_script)()
+local function TIVFU_fake_script() -- desert.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', desert)
 
 	local Button = script.Parent
@@ -2632,8 +2685,8 @@ local function OTTYHJ_fake_script() -- desert.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(OTTYHJ_fake_script)()
-local function HWSKV_fake_script() -- desert.Script 
+coroutine.wrap(TIVFU_fake_script)()
+local function ZOGH_fake_script() -- desert.Script 
 	local script = Instance.new('Script', desert)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2643,8 +2696,8 @@ local function HWSKV_fake_script() -- desert.Script
 	
 	end)
 end
-coroutine.wrap(HWSKV_fake_script)()
-local function RLVO_fake_script() -- lavaBoss.UIButtonEffectScript 
+coroutine.wrap(ZOGH_fake_script)()
+local function HJVVPUE_fake_script() -- lavaBoss.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', lavaBoss)
 
 	local Button = script.Parent
@@ -2713,8 +2766,8 @@ local function RLVO_fake_script() -- lavaBoss.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(RLVO_fake_script)()
-local function VEIE_fake_script() -- lavaBoss.Script 
+coroutine.wrap(HJVVPUE_fake_script)()
+local function YBCRNE_fake_script() -- lavaBoss.Script 
 	local script = Instance.new('Script', lavaBoss)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2724,8 +2777,8 @@ local function VEIE_fake_script() -- lavaBoss.Script
 	
 	end)
 end
-coroutine.wrap(VEIE_fake_script)()
-local function DMUB_fake_script() -- mountain.UIButtonEffectScript 
+coroutine.wrap(YBCRNE_fake_script)()
+local function DCRMRID_fake_script() -- mountain.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', mountain)
 
 	local Button = script.Parent
@@ -2794,8 +2847,8 @@ local function DMUB_fake_script() -- mountain.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(DMUB_fake_script)()
-local function UAUV_fake_script() -- mountain.Script 
+coroutine.wrap(DCRMRID_fake_script)()
+local function OSGJAH_fake_script() -- mountain.Script 
 	local script = Instance.new('Script', mountain)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2805,8 +2858,8 @@ local function UAUV_fake_script() -- mountain.Script
 	
 	end)
 end
-coroutine.wrap(UAUV_fake_script)()
-local function CXGEOCR_fake_script() -- lavasecret.UIButtonEffectScript 
+coroutine.wrap(OSGJAH_fake_script)()
+local function VPLJK_fake_script() -- lavasecret.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', lavasecret)
 
 	local Button = script.Parent
@@ -2875,8 +2928,8 @@ local function CXGEOCR_fake_script() -- lavasecret.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(CXGEOCR_fake_script)()
-local function UWNACH_fake_script() -- lavasecret.Script 
+coroutine.wrap(VPLJK_fake_script)()
+local function WRAV_fake_script() -- lavasecret.Script 
 	local script = Instance.new('Script', lavasecret)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2886,8 +2939,8 @@ local function UWNACH_fake_script() -- lavasecret.Script
 	
 	end)
 end
-coroutine.wrap(UWNACH_fake_script)()
-local function AYKM_fake_script() -- barn.UIButtonEffectScript 
+coroutine.wrap(WRAV_fake_script)()
+local function MAWWO_fake_script() -- barn.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', barn)
 
 	local Button = script.Parent
@@ -2956,8 +3009,8 @@ local function AYKM_fake_script() -- barn.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(AYKM_fake_script)()
-local function HLDQCB_fake_script() -- barn.Script 
+coroutine.wrap(MAWWO_fake_script)()
+local function WSNNSC_fake_script() -- barn.Script 
 	local script = Instance.new('Script', barn)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2967,8 +3020,8 @@ local function HLDQCB_fake_script() -- barn.Script
 	
 	end)
 end
-coroutine.wrap(HLDQCB_fake_script)()
-local function KXOH_fake_script() -- undermountain.UIButtonEffectScript 
+coroutine.wrap(WSNNSC_fake_script)()
+local function ZGNUWI_fake_script() -- undermountain.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', undermountain)
 
 	local Button = script.Parent
@@ -3037,8 +3090,8 @@ local function KXOH_fake_script() -- undermountain.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(KXOH_fake_script)()
-local function OHTKRBL_fake_script() -- undermountain.Script 
+coroutine.wrap(ZGNUWI_fake_script)()
+local function IVIC_fake_script() -- undermountain.Script 
 	local script = Instance.new('Script', undermountain)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3048,8 +3101,8 @@ local function OHTKRBL_fake_script() -- undermountain.Script
 	
 	end)
 end
-coroutine.wrap(OHTKRBL_fake_script)()
-local function IBVIH_fake_script() -- underFloor.UIButtonEffectScript 
+coroutine.wrap(IVIC_fake_script)()
+local function EIJW_fake_script() -- underFloor.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', underFloor)
 
 	local Button = script.Parent
@@ -3118,8 +3171,8 @@ local function IBVIH_fake_script() -- underFloor.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(IBVIH_fake_script)()
-local function MHBNF_fake_script() -- underFloor.Script 
+coroutine.wrap(EIJW_fake_script)()
+local function RSHMCL_fake_script() -- underFloor.Script 
 	local script = Instance.new('Script', underFloor)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3129,8 +3182,8 @@ local function MHBNF_fake_script() -- underFloor.Script
 	
 	end)
 end
-coroutine.wrap(MHBNF_fake_script)()
-local function DBJK_fake_script() -- separatorLower.Rainbow 
+coroutine.wrap(RSHMCL_fake_script)()
+local function DFEQR_fake_script() -- separatorLower.Rainbow 
 	local script = Instance.new('Script', separatorLower)
 
 	local text = script.Parent
@@ -3186,8 +3239,8 @@ local function DBJK_fake_script() -- separatorLower.Rainbow
 		end
 	end
 end
-coroutine.wrap(DBJK_fake_script)()
-local function EHCLJ_fake_script() -- Title.RainbowText 
+coroutine.wrap(DFEQR_fake_script)()
+local function XWTRY_fake_script() -- Title.RainbowText 
 	local script = Instance.new('Script', Title)
 
 	local text = script.Parent
@@ -3243,8 +3296,8 @@ local function EHCLJ_fake_script() -- Title.RainbowText
 	end
 	end
 end
-coroutine.wrap(EHCLJ_fake_script)()
-local function MATA_fake_script() -- MinimizeButton.LocalScript 
+coroutine.wrap(XWTRY_fake_script)()
+local function BBOJZO_fake_script() -- MinimizeButton.LocalScript 
 	local script = Instance.new('LocalScript', MinimizeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3253,8 +3306,8 @@ local function MATA_fake_script() -- MinimizeButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(MATA_fake_script)()
-local function OQTI_fake_script() -- MinimizeButton.UIButtonEffectScript 
+coroutine.wrap(BBOJZO_fake_script)()
+local function ALCDS_fake_script() -- MinimizeButton.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', MinimizeButton)
 
 	local Button = script.Parent
@@ -3323,65 +3376,8 @@ local function OQTI_fake_script() -- MinimizeButton.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(OQTI_fake_script)()
-local function WEZB_fake_script() -- MinimizeButton.RainbowText 
-	local script = Instance.new('Script', MinimizeButton)
-
-	local text = script.Parent
-	local add = 10
-	wait(1)
-	local k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	while true do
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255,k/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(0/255,255/255,k/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(k/255,0/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
-	k = k + add
-	wait()
-	end
-	while k <= 255 do
-	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	end
-end
-coroutine.wrap(WEZB_fake_script)()
-local function ZATAI_fake_script() -- MainFrame.Draggable 
+coroutine.wrap(ALCDS_fake_script)()
+local function QIIXP_fake_script() -- MainFrame.Draggable 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3432,8 +3428,8 @@ local function ZATAI_fake_script() -- MainFrame.Draggable
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(ZATAI_fake_script)()
-local function GETLB_fake_script() -- separatorUp.Rainbow 
+coroutine.wrap(QIIXP_fake_script)()
+local function PDENFTQ_fake_script() -- separatorUp.Rainbow 
 	local script = Instance.new('Script', separatorUp)
 
 	local text = script.Parent
@@ -3489,8 +3485,8 @@ local function GETLB_fake_script() -- separatorUp.Rainbow
 		end
 	end
 end
-coroutine.wrap(GETLB_fake_script)()
-local function RUPT_fake_script() -- LogoMinimized.UIButtonEffectScript 
+coroutine.wrap(PDENFTQ_fake_script)()
+local function SVODWP_fake_script() -- LogoMinimized.UIButtonEffectScript 
 	local script = Instance.new('LocalScript', LogoMinimized)
 
 	local Button = script.Parent
@@ -3559,8 +3555,8 @@ local function RUPT_fake_script() -- LogoMinimized.UIButtonEffectScript
 		print("UI BUTTON EFFECT LOADED!")
 	end
 end
-coroutine.wrap(RUPT_fake_script)()
-local function BNFLPY_fake_script() -- LogoMinimized.Setter 
+coroutine.wrap(SVODWP_fake_script)()
+local function XEOH_fake_script() -- LogoMinimized.Setter 
 	local script = Instance.new('LocalScript', LogoMinimized)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3573,8 +3569,8 @@ local function BNFLPY_fake_script() -- LogoMinimized.Setter
 	end)
 	
 end
-coroutine.wrap(BNFLPY_fake_script)()
-local function OVOGLYY_fake_script() -- LogoMinimized.Draggable 
+coroutine.wrap(XEOH_fake_script)()
+local function AGSH_fake_script() -- LogoMinimized.Draggable 
 	local script = Instance.new('LocalScript', LogoMinimized)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3625,11 +3621,11 @@ local function OVOGLYY_fake_script() -- LogoMinimized.Draggable
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(OVOGLYY_fake_script)()
-local function ZLJCTI_fake_script() -- MinimizedState.LocalScript 
+coroutine.wrap(AGSH_fake_script)()
+local function DHUGA_fake_script() -- MinimizedState.LocalScript 
 	local script = Instance.new('LocalScript', MinimizedState)
 
 	script.Parent.Parent:TweenPosition(UDim2.new(-2.545, 0,-0.966, 0), 'Out', 'Quart', 0.5)
 	
 end
-coroutine.wrap(ZLJCTI_fake_script)()
+coroutine.wrap(DHUGA_fake_script)()
