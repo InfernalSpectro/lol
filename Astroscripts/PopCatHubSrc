@@ -627,11 +627,11 @@ function SolarisLib:New(Config)
     SettingsConstructor()
 
     local function OpenTabMenu()
-        TweenService:Create(MFrame.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(0,0,0,0)}):Play() 
+        TweenService:Create(MFrame.TabMenu,TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(0,0,0,0)}):Play() 
     end   
     
     local function CloseTabMenu()
-        TweenService:Create(MFrame.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(-0.37, -8, 0, 0)}):Play() 
+        TweenService:Create(MFrame.TabMenu,TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(-0.37, -8, 0, 0)}):Play() 
     end 
 
     MFrame.TopBar.TabListBtn.MouseButton1Click:Connect(function()
